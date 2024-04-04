@@ -1,0 +1,17 @@
+FormKey: 000911:Orion.esm
+EditorID: mod_spacesuit_servos_ExoServosMK1
+Name:
+  TargetLanguage: English
+  Value: Exo Servos MK1
+Model:
+  File: SetDressing\OutfitContainer01.nif
+Keywords:
+- 02137B:Starfield.esm
+- 11A47A:Starfield.esm
+- 23CEB6:Starfield.esm
+- 00090F:Orion.esm
+Resources:
+- Resource: 000926:Orion.esm
+  Count: 1
+Value: 2000
+Weight: 0.5

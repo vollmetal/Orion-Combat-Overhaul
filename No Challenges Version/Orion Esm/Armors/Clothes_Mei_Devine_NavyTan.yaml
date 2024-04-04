@@ -1,0 +1,53 @@
+FormKey: 1F1DC9:Starfield.esm
+EditorID: Clothes_Mei_Devine_NavyTan
+FormVersion: 558
+ObjectBounds:
+  First: -0.26464844, -0.20669045, 0.0009460449
+  Second: 0.26416016, 0.20712791, 0.23083496
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EB9:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Navy Tan Dress
+WorldModel:
+  Male:
+    File: SetDressing\OutfitContainer01.nif
+  Female:
+    File: SetDressing\OutfitContainer01.nif
+FirstPersonFlags: BODY
+Race: 00347D:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048C:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 14410A:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 144109:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 165724:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 006A88:Starfield.esm
+Value: 525
+Weight: 1.1
+Unused: 0x000000
+Resistances:
+- DamageType: 060A81:Starfield.esm
+- DamageType: 023190:Starfield.esm
+AttachParentSlots:
+- 022821:Starfield.esm
+ObjectTemplates:
+- Default: True
+  Includes:
+  - Mod: 25AF27:Starfield.esm
+    DontUseAll: True
+  - Mod: 13DDFE:Starfield.esm
+    DontUseAll: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+    Property: 14
+    Record: 1F1DCA:Starfield.esm

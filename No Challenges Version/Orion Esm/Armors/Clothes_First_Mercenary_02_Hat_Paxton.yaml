@@ -1,0 +1,44 @@
+FormKey: 3E5D27:Starfield.esm
+EditorID: Clothes_First_Mercenary_02_Hat_Paxton
+FormVersion: 558
+ObjectBounds:
+  First: -0.09692383, -0.09661865, -0.0008544922
+  Second: 0.09698486, 0.18908691, 0.12683105
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EAE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Paxton's Officer Hat
+WorldModel:
+  Male:
+    File: Clothes\outfit_first_mercenary_01\Outfit_First_Mercenary_01_Hat_GO.nif
+    MaterialSwaps:
+    - 3E5D28:Starfield.esm
+    Flags:
+    - HasFirstPersonModel
+  Female: {}
+FirstPersonFlags: 17
+Race: 00347D:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048B:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 211140:Starfield.esm
+Value: 38
+Weight: 0.2
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+- DamageType: 060A81:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Default: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+    Property: 14
+    Record: 3E5D28:Starfield.esm

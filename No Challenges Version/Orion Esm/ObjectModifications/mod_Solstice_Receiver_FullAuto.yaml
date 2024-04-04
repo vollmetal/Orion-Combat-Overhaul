@@ -1,0 +1,42 @@
+MutagenObjectType: WeaponModification
+FormKey: 12A7C4:Starfield.esm
+EditorID: mod_Solstice_Receiver_FullAuto
+Name:
+  TargetLanguage: English
+  Value: Fully Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\solstice\Solstice.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 04B6E1:Starfield.esm
+- 022499:Starfield.esm
+- 05D4D7:Starfield.esm
+- 147AFE:Starfield.esm
+- 040F13:Starfield.esm
+- 040F12:Starfield.esm
+- 02249F:Starfield.esm
+Includes:
+- Mod: 1341F4:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70D3:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: AimModelTemplate
+  Record: 347805:Starfield.esm
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 7.5
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: DamageTypeValue
+  Record: 060A81:Starfield.esm
+  Value: -0.5
+  FunctionType: MultAndAdd

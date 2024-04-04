@@ -1,0 +1,38 @@
+MutagenObjectType: WeaponModification
+FormKey: 1452C5:Starfield.esm
+MajorRecordFlagsRaw: 256
+EditorID: _Template_mod_Weapon_Mag_XPL
+StarfieldMajorRecordFlags:
+- 0x100
+Name:
+  TargetLanguage: English
+  Value: Template Weapon Explosive Rounds
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+MajorFlags:
+- 0x100
+Properties:
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Value
+  Value: 1.1
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: 1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3FE6D2:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3BC139:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: -1
+  FunctionType: Add

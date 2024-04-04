@@ -1,0 +1,38 @@
+MutagenObjectType: ArmorModification
+FormKey: 1AEB51:Starfield.esm
+EditorID: mod_Armor_Spacesuit_ENV_Balanced01
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Hazard Resistance
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+AttachPoint: 1AEB52:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: ActorValue
+  Record: 248D31:Starfield.esm
+  Value: 15
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: ActorValue
+  Record: 248D30:Starfield.esm
+  Value: 15
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: ActorValue
+  Record: 248D2F:Starfield.esm
+  Value: 15
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: ActorValue
+  Record: 248D32:Starfield.esm
+  Value: 15
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add

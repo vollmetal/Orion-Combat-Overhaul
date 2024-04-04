@@ -1,0 +1,192 @@
+
+[GameSettings]
+fHealthEnduranceOffset|10
+fNPCHealthLevelBonus|0
+iAINumberActorsComplexScene,iNumberActorsInCombatPlayer|100
+
+[NPC]
+#Amplifier Damage Controller
+*of_race(Starfield.esm~347D)|prop_rpl(Starfield.esm~2D4:180:~,Starfield.esm~2D4:150:~)
+#Armor Piercing DR Ignore Controller
+#Starfield.esm~7|add_perk(Orion.esm~038B2:1)
+#Depleted Uranium Mod DR Ignore Controller
+#Starfield.esm~7|add_perk(Orion.esm~038B3:1)
+#EM Damage Controller
+#Starfield.esm~7|add_perk(Orion.esm~038B8:1)
+#Focus Nozzle Mod Damage Controller
+#Starfield.esm~7|add_perk(Orion.esm~038B4:1)
+#High Powered Mod Damage Controller
+#Starfield.esm~7|add_perk(Orion.esm~038B5:1)
+#Pain Blade Combo Bonus Controller
+#Starfield.esm~7|add_perk(Orion.esm~038B9:1)
+#Heavy Weapon Damage Scaling
+#Starfield.esm~7|add_perk(Orion.esm~038BE:1)
+#Melee Damage Scaling
+#Starfield.esm~7|add_perk(Orion.esm~038BF:1)
+#Pistol Damage Scaling
+#Starfield.esm~7|add_perk(Orion.esm~038B1:1)
+#Rifle Damage Scaling
+#Starfield.esm~7|add_perk(Orion.esm~038BC:1)
+#Shotgun Damage Scaling
+#Starfield.esm~7|add_perk(Orion.esm~038BD:1)
+
+#Remove Vanilla Weapon Mod Perk
+Starfield.esm~7|add_perk(Orion.esm~8B1:1,Orion.esm~8B2:1,Orion.esm~8B3:1,Orion.esm~8B4:1,Orion.esm~8B5:1,Orion.esm~8B6:1,Orion.esm~8B7:1,Orion.esm~8B8:1,Orion.esm~8B9:1,Orion.esm~8BC:1,Orion.esm~8BD:1,Orion.esm~8BE:1,Orion.esm~8BF:1)|rmv_perk(Starfield.esm~101CB2:1)
+
+[Weapon]
+
+#Unarmed
+Starfield.esm~001F4|dam(14)
+
+#Eon
+Starfield.esm~476C4|dam(24)
+
+#Razorback
+Starfield.esm~00FD6|dam(57)
+
+#Cutter
+#Starfield.esm~16758
+
+#Equinox
+Starfield.esm~1BC4F|clr_dmgt()|add_dmgt(Starfield.esm~60A81:20,Starfield.esm~00208DCD:1)
+
+#MagPulse
+Starfield.esm~23606|dam(59)
+
+#Grendel
+Starfield.esm~28A02|kwd_rmv(Starfield.esm~4A0A2)|dam(12)
+
+#Regulator
+Starfield.esm~2CB5F|dam(40)
+
+#Lawgiver
+Starfield.esm~2D7F4|dam(55)
+
+#Tombstone
+Starfield.esm~2EB36|kwd_rmv(Starfield.esm~4A0A2)
+
+#MagShear
+Starfield.esm~2EB3C|kwd_rmv(Starfield.esm~4A0A2)
+
+#MagShot
+Starfield.esm~2EB42|dam(38)
+
+#MagSniper
+Starfield.esm~2EB45|dam(90)
+
+#Combat Knife
+#Starfield.esm~35A48
+
+#Rattler
+Starfield.esm~40826|dam(20)
+
+#Beowulf
+Starfield.esm~2EB45|dam(28)
+
+#Hard Target
+Starfield.esm~546CC|dam(85)
+
+#Microgun
+Starfield.esm~546CD|dam(90)
+
+#Breach
+Starfield.esm~547A3|dam(78)
+
+#DrumBeat
+Starfield.esm~0018DE2C|dam(13)
+
+#Old Earth Hunting Rifle
+Starfield.esm~0021BBCD|dam(35)
+
+#Kraken
+Starfield.esm~0021FEB4|dam(13)
+
+#AA-99
+#Starfield.esm~002BF65B
+
+#Kodama
+Starfield.esm~00253A16|kwd_rmv(Starfield.esm~4A0A2)|dam(13)
+
+#Maelstrom
+Starfield.esm~002984DF|kwd_rmv(Starfield.esm~4A0A2)|dam(14)|base_speed(1)
+
+#MagStorm
+Starfield.esm~0026035E|kwd_rmv(Starfield.esm~4A0A2)|dam(10)
+
+#Old Earth Assault Rifle
+Starfield.esm~0026ED2A|kwd_rmv(Starfield.esm~4A0A2)|dam(18)
+
+#Auto Rivet
+#Starfield.esm~0026D964
+
+#Negotiator
+Starfield.esm~0026D970|shot_per_sec(1.200)
+
+#Old Earth Pistol
+Starfield.esm~0026D96C|dam(31)|weight(1.2)|cap(7)
+
+#Sidestar
+Starfield.esm~0026D95D|dam(28)
+
+#Urban Eagle
+Starfield.esm~0026D96D|dam(35)
+
+#XM-2311
+Starfield.esm~0024561C|dam(29)|weight(0.9)|cap(8)
+
+#Solstice
+Starfield.esm~0026D961|clr_dmgt()|add_dmgt(Starfield.esm~60A81:28,Starfield.esm~00208DCD:1)
+
+#Novalight
+Starfield.esm~0026D967|dam(17)|clr_dmgt()|add_dmgt(Starfield.esm~60A81:17,Starfield.esm~00208DCD:1)
+
+#Starshard
+Starfield.esm~0026D8A4|dam(28)|clr_dmgt()|add_dmgt(Starfield.esm~60A81:28,Starfield.esm~00208DCD:1)
+
+#Orion
+Starfield.esm~002773C8|clr_dmgt()|add_dmgt(Starfield.esm~60A81:36)|shot_per_sec(3.5)
+
+#VaRuun Inflictor
+Starfield.esm~0026D8A0|dam(22)|clr_dmgt()|add_dmgt(Starfield.esm~60A81:22,Starfield.esm~00208DCD:1)
+
+#Coachman
+#Starfield.esm~0026D96B
+
+#Pacifier
+#Starfield.esm~002953F8
+
+#Old Earth Shotgun
+Starfield.esm~00278F74|dam(90)|shot_per_sec(0.6)
+
+#Shotty
+Starfield.esm~0026D960|dam(23)|kwd_rmv(Starfield.esm~4A0A2)
+
+#Big Bang
+Starfield.esm~0026D963|dam(31)|clr_dmgt()|add_dmgt(Starfield.esm~60A81:31,Starfield.esm~00208DCD:1)
+
+
+[LVLLItem]
+
+#trade ship cargo any
+Starfield.esm~257875|add(Orion.esm~973:1:1:80)|add(Orion.esm~974:1:1:40)|add(Orion.esm~975:1:1:40)|add(Orion.esm~976:1:1:40)
+
+#UC Outfitters
+Starfield.esm~1BC390|add(Orion.esm~973:1:1:80)|add(Orion.esm~974:1:1:40)|add(Orion.esm~975:1:1:40)|add(Orion.esm~976:1:1:40)
+
+#Rare small safe
+Starfield.esm~180EDD|add(Orion.esm~973:1:1:80)|add(Orion.esm~974:1:1:40)|add(Orion.esm~975:1:1:40)|add(Orion.esm~976:1:1:40)
+
+#Large common loot
+Starfield.esm~1B9D3A|add(Orion.esm~974:1:1:40)|add(Orion.esm~975:1:1:40)|add(Orion.esm~976:1:1:40)
+
+#Large Rare misc loot 001B9DEE
+Starfield.esm~1B9DEE|add(Orion.esm~974:1:1:40)|add(Orion.esm~975:1:1:40)|add(Orion.esm~976:1:1:40)
+
+#Industrial loot crate 001F27F4
+Starfield.esm~1F27F4|add(Orion.esm~973:1:1:80)|add(Orion.esm~974:1:1:40)|add(Orion.esm~975:1:1:40)|add(Orion.esm~976:1:1:40)
+
+#Military loot crate 001F27F3
+Starfield.esm~1F27F3|add(Orion.esm~973:1:1:80)|add(Orion.esm~974:1:1:40)|add(Orion.esm~975:1:1:40)|add(Orion.esm~976:1:1:40)
+
+#Science loot crate 00128C5D
+Starfield.esm~128C5D|add(Orion.esm~973:1:1:80)|add(Orion.esm~974:1:1:40)|add(Orion.esm~975:1:1:40)|add(Orion.esm~976:1:1:40)

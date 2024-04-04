@@ -1,0 +1,35 @@
+FormKey: 000944:Orion.esm
+EditorID: co_cr_Armor_mod_Spacesuit_Lining_ENVResist3
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Increases Environmental Protection by 15.
+WorkbenchKeyword: 0657FF:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsResearchCompleteConditionData
+    FirstParameter: 00097B:Orion.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetKeywordItemCountConditionData
+    FirstParameter: 000940:Orion.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 077826:Starfield.esm
+  Count: 15
+- Component: 07782C:Starfield.esm
+  Count: 15
+- Component: 24577F:Starfield.esm
+  Count: 10
+CreatedObject: 000937:Orion.esm
+MenuSortOrder: 3
+LearnMethod: DefaultOrConditions
+Value: 3
+Categories:
+- 000915:Orion.esm
+RECF: 3

@@ -1,0 +1,37 @@
+FormKey: 21F3F4:Starfield.esm
+EditorID: Clothes_First_Mech_Pilot_01_Helmet
+FormVersion: 558
+ObjectBounds:
+  First: -0.13171387, -0.16174316, -0.0054626465
+  Second: 0.13171387, 0.11853027, 0.23339844
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EA9:Starfield.esm
+  Preview: 02C03C:Starfield.esm
+  Workbench: 266E22:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: First Soldier Helmet
+WorldModel:
+  Male:
+    File: Clothes\outfit_first_mech_pilot_01\Outfit_First_Mech_Pilot_01_Helmet_GO.nif
+  Female: {}
+FirstPersonFlags: 524305
+Race: 00347D:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048B:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 21F435:Starfield.esm
+Value: 150
+Weight: 0.5
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+- DamageType: 060A81:Starfield.esm
+ObjectTemplates:
+- Default: True

@@ -1,0 +1,99 @@
+FormKey: 26F181:Starfield.esm
+EditorID: MK_BarrowKnife
+ObjectBounds:
+  First: -0.015716553, -0.039520264, -0.085510254
+  Second: 0.015716553, 0.039520264, 0.3251953
+ODTY: 0
+Transforms:
+  InventoryIcon: 2BE581:Starfield.esm
+  Inventory: 039A28:Starfield.esm
+  MainGameUI: 2BE581:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Barrow Knife
+Model:
+  File: Weapons\BarrowKnife\barrowknife.nif
+  FLLD: 0x01000000
+EquipmentType: 013F45:Starfield.esm
+AlternateBlockMaterial: 0D525E:Starfield.esm
+PickupSound:
+  Start: 467042a4-18b3-03e1-c466-0c8fd79a4fb1
+DropdownSound:
+  Start: 13134dbb-97f3-2d76-ce72-910bd19c05a3
+Keywords:
+- 00B0A1:Starfield.esm
+- 0143AA:Starfield.esm
+- 0245A3:Starfield.esm
+- 04A0A4:Starfield.esm
+- 077C2C:Starfield.esm
+- 1F70E7:Starfield.esm
+- 230326:Starfield.esm
+- 23771E:Starfield.esm
+- 244895:Starfield.esm
+- 2811D0:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+InstanceNaming: 2377CF:Starfield.esm
+AttachParentSlots:
+- 1E32C8:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+EmbeddedWeaponMod: Null
+SightedTransitionSeconds: 0.25
+MeleeAimAssistModel: 1E810B:Starfield.esm
+ReticleType: 1
+ProjectilesCount: 1
+WAM2Unknown1: 1
+MeleeOrCreature:
+  Start: f5e84b52-ee28-c2bc-7adc-c792180945a1
+PrimedExplosive: {}
+DryFire: {}
+Idle: {}
+Equip:
+  Start: 26884133-215f-9a96-ffe7-9d26fb7308a5
+Unequip:
+  Start: f01f4089-c4b1-9be1-adb1-5f48b25ccfa4
+FastEquip: {}
+SoundLevel: Silent
+WAUDUnknown2: 3
+WTUR: 0x00000034C3000034430000B4C20000B44200003443000034430000803F
+ChargeCritBonus: 1
+AttackDamage: 22
+OutOfRangeDamageMult: 1
+CritDamageMult: 2
+CritEffectOnDeathOnly: True
+HitBehavior: DismemberOnly
+WDMGUnknown4: 1
+WDMGUnknown5: 1
+WDMGUnknown6: 1
+WDMGUnknown7: 1
+WDMGUnknown8: 1
+WDMGUnknown9: 1
+CritChanceIncMult: 1
+DamageTypes:
+- DamageType: 208DCD:Starfield.esm
+  Value: 1
+AttackSeconds: 2.016667
+TriggerThresholdPrimaryTrigger: 0.33
+TriggerThresholdSecondStage: 0.33
+BurstDelaySeconds: 0.3
+WGENUnknown1: 2
+BaseWeight: 0.34
+BaseValue: 1220
+BaseSpeed: 1
+AttackOxygenCost: 40
+WMELUnknown1: 4
+MeleeReach: 0.6
+MeleeStagger: Small
+QNAMUnknown5: 1
+ReloadSpeed: 1
+FirstPersonModel:
+  File: Weapons\BarrowKnife\barrowknife.nif
+  FLLD: 0x01000000
+ImpactDataSet: 055DC3:Starfield.esm
+ColorRemappingIndex: 3.4028235E+38
+WTRMUnknown1: 20
+WTRMUnknown3: 0.3
+WTRMUnknown4: 0.5
+WTRMUnknown5: 30

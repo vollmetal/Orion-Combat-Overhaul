@@ -1,0 +1,14 @@
+FormKey: 3A0B31:Starfield.esm
+EditorID: co_mod_Armor_Spacesuit_Slot01_DamageResist_Energy
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Increases Damage Resistance.
+ConstructableComponents:
+- Component: 0057CB:Starfield.esm
+  Count: 1
+- Component: 0777F8:Starfield.esm
+  Count: 1
+CreatedObject: 3AD4D9:Starfield.esm
+LearnMethod: DefaultOrConditions
+RECF: 2

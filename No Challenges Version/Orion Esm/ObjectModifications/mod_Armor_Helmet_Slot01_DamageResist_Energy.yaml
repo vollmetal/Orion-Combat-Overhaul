@@ -1,0 +1,18 @@
+MutagenObjectType: ArmorModification
+FormKey: 3AD4DB:Starfield.esm
+EditorID: mod_Armor_Helmet_Slot01_DamageResist_Energy
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Energy Shielding
+Description:
+  TargetLanguage: English
+  Value: Increased Energy Resistance.
+Model:
+  FLLD: 0x01000000
+AttachPoint: 088C9C:Starfield.esm
+Includes:
+- Mod: 3AD4D1:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 3A0B3B:Starfield.esm

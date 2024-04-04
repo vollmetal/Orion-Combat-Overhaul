@@ -1,0 +1,26 @@
+FormKey: 000977:Orion.esm
+EditorID: Equipment_Research_Spacesuit_04
+Name:
+  TargetLanguage: English
+  Value: Expert Spacesuit Defenses
+Description:
+  TargetLanguage: English
+  Value: Discover how to create expert defensive upgrades for your spacesuits.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24577F:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057E0:Starfield.esm
+  RequiredCount: 20
+- Resource: 0777F8:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 27CBC3:Starfield.esm
+  RequiredCount: 4
+IconSource: 22856F:Starfield.esm
+NNAM: 0
+MenuSortOrder: 4
+TNAM: 0
+CategoryKeyword: 2956C1:Starfield.esm
+RequiredProjects:
+- 178D1A:Starfield.esm

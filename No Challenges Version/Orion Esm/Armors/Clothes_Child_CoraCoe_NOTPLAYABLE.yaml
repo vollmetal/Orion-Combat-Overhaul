@@ -1,0 +1,34 @@
+FormKey: 22669F:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: Clothes_Child_CoraCoe_NOTPLAYABLE
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- NotPlayable
+ObjectBounds:
+  First: -0.26464844, -0.20669045, 0.0009460449
+  Second: 0.26416016, 0.20712791, 0.23083496
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EB9:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Cora Coe's Outfit
+WorldModel:
+  Male:
+    File: SetDressing\OutfitContainer01.nif
+  Female: {}
+FirstPersonFlags: BODY
+Race: 2AABCD:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048C:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 004A0C:Starfield.esm
+Weight: 1
+Unused: 0x000000
+MajorFlags:
+- NonPlayable

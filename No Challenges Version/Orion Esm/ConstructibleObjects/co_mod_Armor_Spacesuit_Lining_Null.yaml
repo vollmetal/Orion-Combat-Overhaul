@@ -1,0 +1,13 @@
+FormKey: 00092B:Orion.esm
+EditorID: co_mod_Armor_Spacesuit_Lining_Null
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Improve extra protections by lining your suit.
+WorkbenchKeyword: 0657FF:Starfield.esm
+CreatedObject: 00092C:Orion.esm
+MenuSortOrder: 1
+LearnMethod: DefaultOrConditions
+Categories:
+- 000915:Orion.esm
+RECF: 2

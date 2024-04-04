@@ -1,0 +1,45 @@
+MutagenObjectType: ArmorModification
+FormKey: 3A83E6:Starfield.esm
+EditorID: mod_Armor_Spacesuit_Lining_ENVResist
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Environmental Shielding MK1
+Description:
+  TargetLanguage: English
+  Value: Improves all environmental resistances by 5
+Model:
+  FLLD: 0x01000000
+AttachPoint: 088C9C:Starfield.esm
+TargetOmodKeywords:
+- 0E8D7B:Starfield.esm
+LooseMod: 000929:Orion.esm
+Properties:
+- MutagenObjectType: ObjectModFloatProperty<Armor+Property>
+  Property: Value
+  Value: 0.05
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: ActorValue
+  Record: 248D31:Starfield.esm
+  Value: 5
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: ActorValue
+  Record: 248D30:Starfield.esm
+  Value: 5
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: ActorValue
+  Record: 248D2F:Starfield.esm
+  Value: 5
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: ActorValue
+  Record: 248D32:Starfield.esm
+  Value: 5
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Armor+Property>
+  Property: Weight
+  Value: 0.2
+  FunctionType: MultAndAdd

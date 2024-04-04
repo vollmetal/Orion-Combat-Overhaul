@@ -1,0 +1,45 @@
+MutagenObjectType: WeaponModification
+FormKey: 13382F:Starfield.esm
+EditorID: mod_Drumbeat_Receiver_SemiAuto
+Name:
+  TargetLanguage: English
+  Value: Semi-Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\drumbeat\DrumBeat.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 05D4D7:Starfield.esm
+- 08903B:Starfield.esm
+- 088DAA:Starfield.esm
+- 088D63:Starfield.esm
+- 02249F:Starfield.esm
+- 02249C:Starfield.esm
+- 022499:Starfield.esm
+- 0191EE:Starfield.esm
+- 147AFE:Starfield.esm
+- 02249D:Starfield.esm
+- 2BDD79:Starfield.esm
+Includes:
+- Mod: 1341F7:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 05BAFC:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: AimModelTemplate
+  Record: 179DBD:Starfield.esm
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 5.5
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: 1
+  FunctionType: MultAndAdd

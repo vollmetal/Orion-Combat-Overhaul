@@ -1,0 +1,18 @@
+MutagenObjectType: ArmorModification
+FormKey: 0F77AA:Starfield.esm
+EditorID: mod_Armor_Helmet_Slot02_ReducedExplosive
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Explosive Shielding
+Description:
+  TargetLanguage: English
+  Value: Reduced damage from explosives.
+Model:
+  FLLD: 0x01000000
+AttachPoint: 0B2642:Starfield.esm
+Includes:
+- Mod: 3AD4D3:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 3A0B3B:Starfield.esm

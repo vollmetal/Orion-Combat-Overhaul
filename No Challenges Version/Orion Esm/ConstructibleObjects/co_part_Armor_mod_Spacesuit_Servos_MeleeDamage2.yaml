@@ -1,0 +1,24 @@
+FormKey: 00096F:Orion.esm
+EditorID: co_part_Armor_mod_Spacesuit_Servos_MeleeDamage2
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Increases Melee Damage by 20%.
+WorkbenchKeyword: 0657FF:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetKeywordItemCountConditionData
+    FirstParameter: 00093A:Orion.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 00095B:Orion.esm
+  Count: 1
+CreatedObject: 0E6936:Starfield.esm
+MenuSortOrder: 3
+LearnMethod: DefaultOrConditions
+Categories:
+- 000916:Orion.esm
+RECF: 2

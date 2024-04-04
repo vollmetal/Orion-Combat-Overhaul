@@ -1,0 +1,48 @@
+MutagenObjectType: WeaponModification
+FormKey: 06D5BA:Starfield.esm
+EditorID: mod_Equinox_Receiver_SemiAuto_Standard
+Name:
+  TargetLanguage: English
+  Value: Semi-Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\laserrifle\pirate_laserrifle_rev1.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 02249D:Starfield.esm
+- 02249F:Starfield.esm
+- 14D08A:Starfield.esm
+- 022499:Starfield.esm
+- 05D4D7:Starfield.esm
+- 02EE28:Starfield.esm
+- 01BC46:Starfield.esm
+- 02ECC0:Starfield.esm
+- 147AFE:Starfield.esm
+Includes:
+- Mod: 1341F7:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 297DE0:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: AimModelTemplate
+  Record: 0571E0:Starfield.esm
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 6
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: -1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add

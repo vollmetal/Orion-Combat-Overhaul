@@ -1,0 +1,18 @@
+MutagenObjectType: ArmorModification
+FormKey: 0F77AF:Starfield.esm
+EditorID: mod_Armor_Helmet_Slot03_DamageResist_Heavy
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Heavy Shielding
+Description:
+  TargetLanguage: English
+  Value: Increased all Damage Resistances and Weight.
+Model:
+  FLLD: 0x01000000
+AttachPoint: 0B2646:Starfield.esm
+Includes:
+- Mod: 3AD4D2:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 3A0B3B:Starfield.esm

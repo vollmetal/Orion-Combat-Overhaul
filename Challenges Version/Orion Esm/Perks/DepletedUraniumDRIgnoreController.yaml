@@ -1,0 +1,33 @@
+FormKey: 0008B3:Orion - Challenges.esm
+EditorID: DepletedUraniumDRIgnoreController
+Name:
+  TargetLanguage: English
+  Value: Depleted Uranium Damage Resist Ignore Perk
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PcPlayable
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyActorValue
+    Priority: 51
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 3BC131:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTargetDamageResistance
+    PerkConditionTabCount: 3
+    PerkEntryID: 30
+    ActorValue: 1F5498:Starfield.esm
+    Value: -0.01
+    Modification: MultiplyOnePlusAVMult
+  Description:
+    TargetLanguage: English
+    Value: ''

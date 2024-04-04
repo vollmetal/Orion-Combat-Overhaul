@@ -1,0 +1,43 @@
+MutagenObjectType: WeaponModification
+FormKey: 0432A6:Starfield.esm
+EditorID: mod_RussianAssaultRifle_Receiver_FullAuto_Standard
+Name:
+  TargetLanguage: English
+  Value: Fully Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\RussianAssaultRifle\russianassaultrifle_receiver.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 0849A6:Starfield.esm
+- 02249F:Starfield.esm
+- 02249D:Starfield.esm
+- 05D4D7:Starfield.esm
+- 0191EE:Starfield.esm
+- 147AFE:Starfield.esm
+- 022499:Starfield.esm
+- 149CA8:Starfield.esm
+Includes:
+- Mod: 1341F4:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70EB:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModIntProperty<Weapon+Property>
+  Property: ModCount
+  Value: 4294967295
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 11

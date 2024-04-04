@@ -1,0 +1,24 @@
+FormKey: 000972:Orion.esm
+EditorID: co_part_Armor_mod_Spacesuit_Servos_ReducedSprintMK3
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Reduces Oxygen cost for sprinting by 30%.
+WorkbenchKeyword: 0657FF:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetKeywordItemCountConditionData
+    FirstParameter: 00093C:Orion.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 000927:Orion.esm
+  Count: 1
+CreatedObject: 0E6935:Starfield.esm
+MenuSortOrder: 4
+LearnMethod: DefaultOrConditions
+Categories:
+- 000916:Orion.esm
+RECF: 2

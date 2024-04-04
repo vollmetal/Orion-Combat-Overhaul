@@ -1,0 +1,77 @@
+MutagenObjectType: WeaponModification
+FormKey: 1452C7:Starfield.esm
+MajorRecordFlagsRaw: 256
+EditorID: _Template_mod_Weapon_Mag_Slug
+StarfieldMajorRecordFlags:
+- 0x100
+Name:
+  TargetLanguage: English
+  Value: Template Weapon Slug Rounds
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+MajorFlags:
+- 0x100
+Properties:
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: AimModelConeMinDegrees
+  Value: -0.45
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: AimModelConeMaxDegrees
+  Value: -0.45
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: AimModelConeIncreasePerShot
+  Value: -0.45
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: AimModelConeDecreasePerSec
+  Value: 0.45
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: AimModelConeIronSightsMultiplier
+  Value: -0.45
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Weight
+  Value: 0.2
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Value
+  Value: 0.5
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: MinRange
+  Value: 1
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModIntProperty<Weapon+Property>
+  Property: ProjectileCount
+  Value: 1
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: MaxRange
+  Value: 1
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: 1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3FE6D2:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3BC138:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 1283C9:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 1283CA:Starfield.esm
+  FunctionType: Add

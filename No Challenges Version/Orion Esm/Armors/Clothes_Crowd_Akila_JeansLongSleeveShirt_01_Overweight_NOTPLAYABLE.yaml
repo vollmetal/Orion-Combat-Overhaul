@@ -1,0 +1,27 @@
+FormKey: 0A6FDE:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: Clothes_Crowd_Akila_JeansLongSleeveShirt_01_Overweight_NOTPLAYABLE
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- NotPlayable
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Akila Crowd Jeans Long Sleeve Shirt
+FirstPersonFlags: BODY
+Race: 2BBC09:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048C:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 0A6FAF:Starfield.esm
+Weight: 1
+Unused: 0x000000
+ObjectTemplates:
+- IsEditorOnly: True
+MajorFlags:
+- NonPlayable

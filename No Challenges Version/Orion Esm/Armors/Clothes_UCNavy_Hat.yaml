@@ -1,0 +1,35 @@
+FormKey: 2C6E7E:Starfield.esm
+EditorID: Clothes_UCNavy_Hat
+FormVersion: 558
+ObjectBounds:
+  First: -0.08465576, -0.09918213, 0.00021362305
+  Second: 0.08392334, 0.11566162, 0.10290527
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EAE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: UC Navy Hat
+WorldModel:
+  Male:
+    File: Clothes\outfit_ucnavy\Outfit_UCNavy_Hat_GO.nif
+  Female: {}
+FirstPersonFlags: Hat
+Race: 00347D:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048B:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 2C6E81:Starfield.esm
+Value: 56
+Weight: 0.2
+Unused: 0x000000
+Resistances:
+- DamageType: 060A81:Starfield.esm
+- DamageType: 023190:Starfield.esm
+ObjectTemplates:
+- Default: True

@@ -1,0 +1,53 @@
+MutagenObjectType: WeaponModification
+FormKey: 12FFAD:Starfield.esm
+MajorRecordFlagsRaw: 256
+EditorID: _Template_mod_Weapon_Mag_DepletedUranium
+StarfieldMajorRecordFlags:
+- 0x100
+Name:
+  TargetLanguage: English
+  Value: Template Weapon Depleted Uranium
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+MajorFlags:
+- 0x100
+Properties:
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Value
+  Value: 0.7
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: MinRange
+  Value: 10
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: ProjectileOverride
+  Record: 0B8DE3:Starfield.esm
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: MaxRange
+  Value: 10
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: 1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3FE6D2:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: 2
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3BC131:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 1283D6:Starfield.esm
+  FunctionType: Add

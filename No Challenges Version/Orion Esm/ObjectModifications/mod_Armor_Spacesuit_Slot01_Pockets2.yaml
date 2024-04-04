@@ -1,0 +1,29 @@
+MutagenObjectType: ArmorModification
+FormKey: 000931:Orion.esm
+EditorID: mod_Armor_Spacesuit_Slot01_Pockets2
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Medium Pockets
+Description:
+  TargetLanguage: English
+  Value: Increased carrying capacity by 10.
+Model:
+  FLLD: 0x01000000
+AttachPoint: 0B2646:Starfield.esm
+TargetOmodKeywords:
+- 0E8D7B:Starfield.esm
+LooseMod: 000969:Orion.esm
+Properties:
+- MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+  Property: Enchantment
+  Record: 050730:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Armor+Property>
+  Property: Value
+  Value: 0.1
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Armor+Property>
+  Property: Weight
+  Value: 0.1
+  FunctionType: MultAndAdd

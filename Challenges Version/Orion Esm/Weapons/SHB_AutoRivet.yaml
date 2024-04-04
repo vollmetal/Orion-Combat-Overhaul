@@ -1,0 +1,199 @@
+FormKey: 26D964:Starfield.esm
+MajorRecordFlagsRaw: 1073741824
+EditorID: SHB_AutoRivet
+StarfieldMajorRecordFlags:
+- 0x40000000
+ODTY: 0
+Transforms:
+  InventoryIcon: 036A6E:Starfield.esm
+  Inventory: 04A705:Starfield.esm
+  Workbench: 0796D5:Starfield.esm
+  MainGameUI: 12F677:Starfield.esm
+Components:
+- MutagenObjectType: AnimationGraphComponent
+  ANAM: AnimTextData\Tables\Graphs\FXAmmoCounterIndex.agx
+  BNAM: genericbehaviors\characterassets\skeleton.rig
+- MutagenObjectType: SoundTagComponent
+  AnimationSound: 13D70C:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Auto-Rivet
+Model:
+  File: Weapons\Bullpup\BullpupDummyReceiver.nif
+  FLLD: 0x01000000
+EquipmentType: 04334D:Starfield.esm
+BlockBashImpactDataSet: 0116F2:Starfield.esm
+AlternateBlockMaterial: 077251:Starfield.esm
+PickupSound:
+  Start: 7ed846bd-4548-7927-2551-aba7b9c332ab
+DropdownSound:
+  Start: 61ad414d-6725-38df-301d-2736c38eaca5
+Keywords:
+- 016759:Starfield.esm
+- 0245A1:Starfield.esm
+- 02B714:Starfield.esm
+- 03ADB4:Starfield.esm
+- 04A0A3:Starfield.esm
+- 092A86:Starfield.esm
+- 0F4AEA:Starfield.esm
+- 103805:Starfield.esm
+- 10C485:Starfield.esm
+- 1F5125:Starfield.esm
+- 1F70E8:Starfield.esm
+- 1FA552:Starfield.esm
+- 206772:Starfield.esm
+- 226078:Starfield.esm
+- 23771D:Starfield.esm
+- 2811CF:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+InstanceNaming: 2377CF:Starfield.esm
+AttachParentSlots:
+- 024004:Starfield.esm
+- 1E32C8:Starfield.esm
+- 0191EE:Starfield.esm
+- 02249F:Starfield.esm
+- 147AFE:Starfield.esm
+- 05D4D7:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+- 1F076C:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Fallback
+  Default: True
+  Includes:
+  - Mod: 042D9D:Starfield.esm
+    DontUseAll: True
+  - Mod: 042D9C:Starfield.esm
+    DontUseAll: True
+  - Mod: 042D9B:Starfield.esm
+    DontUseAll: True
+  - Mod: 042D9A:Starfield.esm
+    DontUseAll: True
+  - Mod: 042D99:Starfield.esm
+    DontUseAll: True
+  - Mod: 157D47:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Standard Low
+  AddonIndex: 3
+  LevelMin: 27
+  Includes:
+  - Mod: 12454F:Starfield.esm
+    DontUseAll: True
+  - Mod: 12454C:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Upgraded
+  AddonIndex: 0
+  Keywords:
+  - 13E95E:Starfield.esm
+  Includes:
+  - Mod: 12454F:Starfield.esm
+    DontUseAll: True
+  - Mod: 12454A:Starfield.esm
+    DontUseAll: True
+  - Mod: 12454C:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Standard
+  AddonIndex: 0
+  LevelMin: 1
+  LevelMax: 29
+  Includes:
+  - Mod: 042D9D:Starfield.esm
+    DontUseAll: True
+  - Mod: 042D9C:Starfield.esm
+    DontUseAll: True
+  - Mod: 042D9B:Starfield.esm
+    DontUseAll: True
+  - Mod: 042D9A:Starfield.esm
+    DontUseAll: True
+  - Mod: 042D99:Starfield.esm
+    DontUseAll: True
+EmbeddedWeaponMod: Null
+SightedTransitionSeconds: 0.25
+AimDownSightTemplate: 1F50AE:Starfield.esm
+AimModel: 1F50AF:Starfield.esm
+AimAssistTemplate: 27B5A1:Starfield.esm
+ReticleType: 6
+AmmoType: 2B5594:Starfield.esm
+AmmoCapacity: 10
+AmmoList: 2B4B1A:Starfield.esm
+ProjectilesCount: 1
+WAM2Unknown1: 1
+MeleeOrCreature: {}
+PrimedExplosive: {}
+DryFire:
+  Start: 4f9348db-ac50-7e3a-ac66-a69b0aa353aa
+Idle: {}
+Equip:
+  Start: 816445e9-8b7c-b320-2dbf-93dc7ab201b4
+Unequip:
+  Start: 356844d3-87fd-646a-78de-d6304fae568a
+FastEquip: {}
+SoundLevel: Normal
+WAUDUnknown2: 3
+WTUR: 0x00000034C3000034430000B4C20000B44200003443000034430000803F
+ChargeFullPowerSeconds: 1
+ChargeMinPowerPerShot: 0.1
+ChargeCritBonus: 2
+ChargeHoldInput: True
+ChargingAttack: True
+AttackDamage: 100
+MinRange: 20
+MaxRange: 45
+OutOfRangeDamageMult: 0.5
+CritDamageMult: 2
+CritEffectOnDeathOnly: True
+WDMGUnknown4: 1
+WDMGUnknown5: 1
+WDMGUnknown6: 1.5
+WDMGUnknown7: 1
+WDMGUnknown8: 0.5
+WDMGUnknown9: 0.5
+CritChanceIncMult: 1
+DamageTypes:
+- DamageType: 208DCD:Starfield.esm
+  Value: 1
+AttackSeconds: 0.6333334
+FireSeconds: 1
+AttackDelaySeconds: 0.65
+ShotsPerSecond: 1.5384616
+WFIRUnknown7: 0.65
+TriggerThresholdPrimaryTrigger: 0.33
+TriggerThresholdSecondStage: 0.33
+BurstDelaySeconds: 0.3
+WGENUnknown1: 9
+BaseWeight: 4.5
+BaseValue: 7640
+BaseSpeed: 1
+AttackOxygenCost: 56
+WeaponBarrel: 25CD28:Starfield.esm
+MeleeBashDamage: 16
+MeleeReach: 1
+MeleeStagger: Large
+QNAMUnknown5: 1
+WRLOUnknown1: 5.0000005
+ReloadSpeed: 1
+FirstPersonModel:
+  File: Weapons\Bullpup\BullpupDummyReceiver.nif
+  FLLD: 0x01000000
+ImpactDataSet: 070F7F:Starfield.esm
+ColorRemappingIndex: 3.4028235E+38
+WTRMUnknown1: 20
+WTRMUnknown3: 0.3
+WTRMUnknown4: 0.5
+WTRMUnknown5: 30
+MajorFlags:
+- 0x40000000

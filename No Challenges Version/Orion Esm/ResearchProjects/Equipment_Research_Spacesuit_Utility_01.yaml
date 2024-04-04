@@ -1,0 +1,26 @@
+FormKey: 00097F:Orion.esm
+EditorID: Equipment_Research_Spacesuit_Utility_01
+Name:
+  TargetLanguage: English
+  Value: Novice Spacesuit Utilities
+Description:
+  TargetLanguage: English
+  Value: Learn to properly add various miscellaneous modifications to spacesuits.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24577F:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057CB:Starfield.esm
+  RequiredCount: 20
+- Resource: 0777F8:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 27CBC3:Starfield.esm
+  RequiredCount: 1
+IconSource: 067C94:Starfield.esm
+NNAM: 0
+MenuSortOrder: 12
+TNAM: 0
+CategoryKeyword: 2956C1:Starfield.esm
+RequiredProjects:
+- 1520B9:Starfield.esm

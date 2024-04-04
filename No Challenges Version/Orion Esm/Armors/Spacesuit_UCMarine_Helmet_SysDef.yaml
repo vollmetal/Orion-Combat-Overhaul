@@ -1,0 +1,95 @@
+FormKey: 398106:Starfield.esm
+MajorRecordFlagsRaw: 64
+EditorID: Spacesuit_UCMarine_Helmet_SysDef
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- 0x40
+ObjectBounds:
+  First: -0.11590576, -0.16125488, -0.0071105957
+  Second: 0.13452148, 0.19384766, 0.28198242
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EA9:Starfield.esm
+  Preview: 02C03C:Starfield.esm
+  Workbench: 266E22:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: SysDef Space Helmet
+WorldModel:
+  Male:
+    File: Clothes\spacesuit_ucmarine\UCMarine_Helmet_GO.nif
+    MaterialSwaps:
+    - 39808C:Starfield.esm
+    Flags:
+    - HasFirstPersonModel
+  Female: {}
+FirstPersonFlags: SSHelmet
+PickupSound:
+  Start: fa884ae4-018b-627c-f720-9608e364b48c
+DropdownSound:
+  Start: 26dc428f-8c56-8cdf-e6b2-17917d731a95
+Race: 00347D:Starfield.esm
+Keywords:
+- 12EEE9:Starfield.esm
+- 23C7C1:Starfield.esm
+- 3A0B3B:Starfield.esm
+- 30C1E6:Starfield.esm
+- 000984:Orion.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+InstanceNaming: 184BC1:Starfield.esm
+Armatures:
+- AddonIndex: 0
+  AddonModel: 1E7E74:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 398097:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 3D0266:Starfield.esm
+Value: 1565
+Weight: 2.2
+ArmorRating: 100
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+  Value: 100
+- DamageType: 060A81:Starfield.esm
+  Value: 100
+AttachParentSlots:
+- 11E2C1:Starfield.esm
+- 0008C1:Orion.esm
+- 0008C2:Orion.esm
+- 088C9C:Starfield.esm
+- 0B2642:Starfield.esm
+- 0B2646:Starfield.esm
+- 0B2649:Starfield.esm
+- 1E32C8:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+- 1AEB52:Starfield.esm
+- 157D41:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Default: True
+  Includes:
+  - Mod: 0008D1:Orion.esm
+    DontUseAll: True
+  - Mod: 0008D2:Orion.esm
+    DontUseAll: True
+  - Mod: 0008D3:Orion.esm
+    DontUseAll: True
+  - Mod: 3A0B3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 3A0B3D:Starfield.esm
+    DontUseAll: True
+  - Mod: 3A0B3E:Starfield.esm
+    DontUseAll: True
+  - Mod: 3A0B3F:Starfield.esm
+    DontUseAll: True
+  - Mod: 157D48:Starfield.esm
+    DontUseAll: True
+Voice:
+  Category: f828402d-35bb-87db-b72d-890dbded3599
+  Value: 7a0e4f4c-24ab-1804-8c9f-289d9cfc8692
+MajorFlags:
+- Shield

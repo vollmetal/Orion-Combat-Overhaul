@@ -1,0 +1,40 @@
+MutagenObjectType: WeaponModification
+FormKey: 044C42:Starfield.esm
+EditorID: mod_Razorback_Mag_Whitehot_Standard
+Name:
+  TargetLanguage: English
+  Value: Standard Whitehot Rounds
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+AttachPoint: 05D4D7:Starfield.esm
+TargetOmodKeywords:
+- 1F70BF:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Enchantment
+  Record: 12D052:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: DamageTypeValue
+  Record: 060A81:Starfield.esm
+  Value: 1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3BC130:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: -2
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 1283C8:Starfield.esm
+  FunctionType: Add

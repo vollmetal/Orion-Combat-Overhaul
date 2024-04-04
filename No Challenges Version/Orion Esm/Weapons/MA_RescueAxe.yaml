@@ -1,0 +1,98 @@
+FormKey: 04F760:Starfield.esm
+EditorID: MA_RescueAxe
+ObjectBounds:
+  First: -0.010986328, -0.06585693, -0.10144043
+  Second: 0.010986328, 0.1184082, 0.31298828
+ODTY: 0
+Transforms:
+  Inventory: 039A28:Starfield.esm
+  MainGameUI: 1B7194:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Rescue Axe
+Model:
+  File: Weapons\RescueAxe\RescueAxe.nif
+  FLLD: 0x01000000
+EquipmentType: 013F45:Starfield.esm
+AlternateBlockMaterial: 0D525E:Starfield.esm
+PickupSound:
+  Start: 467042a4-18b3-03e1-c466-0c8fd79a4fb1
+DropdownSound:
+  Start: 13134dbb-97f3-2d76-ce72-910bd19c05a3
+Keywords:
+- 0143AA:Starfield.esm
+- 0245A3:Starfield.esm
+- 04A0A4:Starfield.esm
+- 0F4AEA:Starfield.esm
+- 1F70BD:Starfield.esm
+- 230326:Starfield.esm
+- 23774B:Starfield.esm
+- 244895:Starfield.esm
+- 2811D0:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+InstanceNaming: 2377CF:Starfield.esm
+AttachParentSlots:
+- 1E32C8:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+EmbeddedWeaponMod: Null
+SightedTransitionSeconds: 0.25
+HasScope: True
+MeleeAimAssistModel: 1E810B:Starfield.esm
+ReticleType: 1
+ProjectilesCount: 1
+WAM2Unknown1: 1
+MeleeOrCreature:
+  Start: 8d884715-a13f-2449-4088-b83cab215f8c
+PrimedExplosive: {}
+DryFire: {}
+Idle: {}
+Equip:
+  Start: d1264819-2b64-0a99-9a20-35e52e82c4a2
+Unequip:
+  Start: 6f4e4c8d-b485-4209-104a-c5b2109439b5
+FastEquip: {}
+SoundLevel: Silent
+WAUDUnknown2: 3
+WTUR: 0x00000034C3000034430000B4C20000B44200003443000034430000803F
+ChargeCritBonus: 1
+AttackDamage: 17
+OutOfRangeDamageMult: 1
+CritDamageMult: 2
+CritEffectOnDeathOnly: True
+HitBehavior: DismemberOnly
+WDMGUnknown4: 1
+WDMGUnknown5: 1
+WDMGUnknown6: 1
+WDMGUnknown7: 1
+WDMGUnknown8: 1
+WDMGUnknown9: 1
+CritChanceIncMult: 1
+DamageTypes:
+- DamageType: 208DCD:Starfield.esm
+  Value: 1
+AttackSeconds: 2.0555556
+TriggerThresholdPrimaryTrigger: 0.33
+TriggerThresholdSecondStage: 0.33
+BurstDelaySeconds: 0.3
+WGENUnknown1: 3
+BaseWeight: 1.4
+BaseValue: 650
+BaseSpeed: 1
+AttackOxygenCost: 40
+WMELUnknown1: 2
+MeleeReach: 0.9
+MeleeStagger: Medium
+QNAMUnknown5: 1
+ReloadSpeed: 1
+FirstPersonModel:
+  File: Weapons\RescueAxe\RescueAxe.nif
+  FLLD: 0x01000000
+ImpactDataSet: 055DC3:Starfield.esm
+ColorRemappingIndex: 3.4028235E+38
+WTRMUnknown1: 20
+WTRMUnknown3: 0.3
+WTRMUnknown4: 0.5
+WTRMUnknown5: 30

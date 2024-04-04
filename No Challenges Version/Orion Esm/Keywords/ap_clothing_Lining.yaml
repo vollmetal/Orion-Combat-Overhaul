@@ -1,0 +1,10 @@
+FormKey: 022821:Starfield.esm
+EditorID: ap_clothing_Lining
+FormVersion: 558
+Color: '#00FFFF00'
+Notes: internal, non-visual modification.
+Type: AttachPoint
+FNAM: 0x00000000
+Name:
+  TargetLanguage: English
+  Value: Lining

@@ -1,0 +1,14 @@
+FormKey: 0008F7:Orion.esm
+EditorID: ResModArmorDR_ExpertPlating
+Name:
+  TargetLanguage: English
+  Value: Expert Armor Plating
+Keywords:
+- 0008F0:Orion.esm
+List: Null
+Rarity: Exotic
+NextRarities:
+- 0008F8:Orion.esm
+ShortName:
+  TargetLanguage: English
+  Value: Plating

@@ -1,0 +1,35 @@
+MutagenObjectType: WeaponModification
+FormKey: 0008D3:Orion.esm
+MajorRecordFlagsRaw: 128
+EditorID: mod_Armor_EMR_Dist
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- 0x80
+Name:
+  TargetLanguage: English
+  Value: Damage Resist Tiers
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+Includes:
+- Mod: 0008CB:Orion.esm
+  DoNotUseAll: True
+- Mod: 0008CC:Orion.esm
+  MinimumLevel: 20
+  DoNotUseAll: True
+- Mod: 0008CD:Orion.esm
+  MinimumLevel: 40
+  DoNotUseAll: True
+- Mod: 0008CE:Orion.esm
+  MinimumLevel: 60
+  DoNotUseAll: True
+- Mod: 0008CF:Orion.esm
+  MinimumLevel: 80
+  DoNotUseAll: True
+- Mod: 0008D0:Orion.esm
+  MinimumLevel: 100
+  DoNotUseAll: True
+MajorFlags:
+- 0x80

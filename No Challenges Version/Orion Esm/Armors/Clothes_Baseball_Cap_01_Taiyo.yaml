@@ -1,0 +1,43 @@
+FormKey: 185A69:Starfield.esm
+EditorID: Clothes_Baseball_Cap_01_Taiyo
+FormVersion: 558
+ObjectBounds:
+  First: -0.0848999, -0.10180664, -0.00091552734
+  Second: 0.08416748, 0.17773438, 0.11859131
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EAE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Taiyo Astroneering Cap
+WorldModel:
+  Male:
+    File: Clothes\Outfit_Baseball_Cap_01\Outfit_Baseball_Cap_Logo_01_GO.nif
+    MaterialSwaps:
+    - 185A61:Starfield.esm
+    Flags:
+    - HasFirstPersonModel
+  Female: {}
+FirstPersonFlags: Hat
+Race: 00347D:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048B:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 19219D:Starfield.esm
+Value: 38
+Weight: 0.2
+Unused: 0x000000
+Resistances:
+- DamageType: 060A81:Starfield.esm
+- DamageType: 023190:Starfield.esm
+ObjectTemplates:
+- Default: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+    Property: 14
+    Record: 185A61:Starfield.esm

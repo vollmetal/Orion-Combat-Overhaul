@@ -1,0 +1,48 @@
+MutagenObjectType: WeaponModification
+FormKey: 06ABE7:Starfield.esm
+EditorID: mod_Grendel_Receiver_BurstFire
+Name:
+  TargetLanguage: English
+  Value: Burst Fire
+Description:
+  TargetLanguage: English
+  Value: Improved damage and rate of fire. Inferior Range.
+Model:
+  File: Weapons\Bullpup\Bullpup_Receiver.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 05D4D7:Starfield.esm
+- 022499:Starfield.esm
+- 02249D:Starfield.esm
+- 0191ED:Starfield.esm
+- 0191EE:Starfield.esm
+- 02249F:Starfield.esm
+- 05B990:Starfield.esm
+- 147AFE:Starfield.esm
+Includes:
+- Mod: 1341F5:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 05164B:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: AimModelTemplate
+  Record: 30E2D7:Starfield.esm
+- MutagenObjectType: ObjectModIntProperty<Weapon+Property>
+  Property: BurstShots
+  Value: 4
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: BurstDelaySeconds
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 15
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: 0.5
+  FunctionType: MultAndAdd

@@ -1,0 +1,24 @@
+FormKey: 00091D:Orion.esm
+EditorID: co_part_Armor_mod_Spacesuit_Lining_ENVResist1
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Increases Damage Resistance.
+WorkbenchKeyword: 0657FF:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetKeywordItemCountConditionData
+    FirstParameter: 000913:Orion.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 000924:Orion.esm
+  Count: 1
+CreatedObject: 3A83E6:Starfield.esm
+MenuSortOrder: 2
+LearnMethod: DefaultOrConditions
+Categories:
+- 000915:Orion.esm
+RECF: 2

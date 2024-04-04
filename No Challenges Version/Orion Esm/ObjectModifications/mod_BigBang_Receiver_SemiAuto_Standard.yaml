@@ -1,0 +1,43 @@
+MutagenObjectType: WeaponModification
+FormKey: 0965D9:Starfield.esm
+EditorID: mod_BigBang_Receiver_SemiAuto_Standard
+Name:
+  TargetLanguage: English
+  Value: Semi-Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\BigBang\BigBang_Receiver.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 02249D:Starfield.esm
+- 02249F:Starfield.esm
+- 022499:Starfield.esm
+- 05D4D7:Starfield.esm
+- 147AFE:Starfield.esm
+- 05B990:Starfield.esm
+- 0191EE:Starfield.esm
+Includes:
+- Mod: 1341F7:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70E5:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: -1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 1.4

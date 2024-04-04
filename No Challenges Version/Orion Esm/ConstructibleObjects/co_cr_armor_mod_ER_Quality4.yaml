@@ -1,0 +1,36 @@
+FormKey: 0008E6:Orion.esm
+EditorID: co_cr_armor_mod_ER_Quality4
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Increases energy protection by 100
+WorkbenchKeyword: 0657FF:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsResearchCompleteConditionData
+    FirstParameter: 178D1A:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetKeywordItemCountConditionData
+    FirstParameter: 0008EF:Orion.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 0057C6:Starfield.esm
+  Count: 20
+- Component: 0057C7:Starfield.esm
+  Count: 20
+- Component: 24577F:Starfield.esm
+  Count: 10
+CreatedObject: 0008C5:Orion.esm
+AmountProduced: 1
+MenuSortOrder: 4
+LearnMethod: DefaultOrConditions
+Value: 4
+Categories:
+- 0008D7:Orion.esm
+RECF: 0

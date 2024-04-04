@@ -1,0 +1,41 @@
+MutagenObjectType: WeaponModification
+FormKey: 057555:Starfield.esm
+EditorID: mod_Lawgiver_Receiver_SemiAuto_Standard
+Name:
+  TargetLanguage: English
+  Value: Semi-Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\Lawgiver\lawgiver1.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 179B4C:Starfield.esm
+- 02249D:Starfield.esm
+- 022499:Starfield.esm
+- 14CDA5:Starfield.esm
+- 0191EE:Starfield.esm
+Includes:
+- Mod: 1341F7:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70D1:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 2
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: -1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add

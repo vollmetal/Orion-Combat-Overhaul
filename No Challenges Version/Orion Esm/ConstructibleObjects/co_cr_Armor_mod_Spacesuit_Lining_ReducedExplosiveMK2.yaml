@@ -1,0 +1,35 @@
+FormKey: 000945:Orion.esm
+EditorID: co_cr_Armor_mod_Spacesuit_Lining_ReducedExplosiveMK2
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Reduces damage from explosives by 20%.
+WorkbenchKeyword: 0657FF:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsResearchCompleteConditionData
+    FirstParameter: 00097A:Orion.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetKeywordItemCountConditionData
+    FirstParameter: 000941:Orion.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 0777F8:Starfield.esm
+  Count: 15
+- Component: 07782C:Starfield.esm
+  Count: 15
+- Component: 24577F:Starfield.esm
+  Count: 10
+CreatedObject: 000938:Orion.esm
+MenuSortOrder: 2
+LearnMethod: DefaultOrConditions
+Value: 2
+Categories:
+- 000915:Orion.esm
+RECF: 2

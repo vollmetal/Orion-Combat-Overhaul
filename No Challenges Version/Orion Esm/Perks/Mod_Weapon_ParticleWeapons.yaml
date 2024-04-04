@@ -1,0 +1,45 @@
+FormKey: 07E95E:Starfield.esm
+EditorID: Mod_Weapon_ParticleWeapons
+Name:
+  TargetLanguage: English
+  Value: Particle Weapons
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PcPlayable
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Priority: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: IsMeleeAttackingConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: EPGetLastCombatHitKillConditionData
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 3BC135:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpell
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Spell: 336BFC:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: ''

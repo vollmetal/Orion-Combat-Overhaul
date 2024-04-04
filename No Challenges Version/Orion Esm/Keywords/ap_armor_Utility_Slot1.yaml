@@ -1,0 +1,10 @@
+FormKey: 0B2646:Starfield.esm
+EditorID: ap_armor_Utility_Slot1
+FormVersion: 558
+Color: '#00FFFF00'
+Notes: internal, non-visual modification.
+Type: AttachPoint
+FNAM: 0x00000000
+Name:
+  TargetLanguage: English
+  Value: Utility Slot

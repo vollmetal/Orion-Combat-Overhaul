@@ -1,0 +1,35 @@
+FormKey: 29080D:Starfield.esm
+EditorID: Clothes_Trucker_AShirt_Hat_01
+FormVersion: 558
+ObjectBounds:
+  First: -0.08557129, -0.084228516, -0.0008239746
+  Second: 0.08569336, 0.19799805, 0.116882324
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EAE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Space Trucker Hat
+WorldModel:
+  Male:
+    File: Clothes\outfit_trucker_ashirt_01\Outfit_Trucker_AShirt_01_Hat_GO.nif
+  Female: {}
+FirstPersonFlags: Hat
+Race: 00347D:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048B:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 290810:Starfield.esm
+Value: 38
+Weight: 0.2
+Unused: 0x000000
+Resistances:
+- DamageType: 060A81:Starfield.esm
+- DamageType: 023190:Starfield.esm
+ObjectTemplates:
+- Default: True

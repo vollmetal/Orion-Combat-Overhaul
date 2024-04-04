@@ -1,0 +1,35 @@
+FormKey: 16E0B9:Starfield.esm
+EditorID: Clothes_Ship_Captain_Hat
+FormVersion: 558
+ObjectBounds:
+  First: -0.08477783, -0.105651855, 0.0002746582
+  Second: 0.08477783, 0.15783691, 0.11175537
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EAE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Ship Captain Hat
+WorldModel:
+  Male:
+    File: Clothes\outfit_ship_captain\Outfit_Ship_Captain_Hat_GO.nif
+  Female: {}
+FirstPersonFlags: 18
+Race: 00347D:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048B:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 16E0BA:Starfield.esm
+Value: 225
+Weight: 0.2
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+- DamageType: 060A81:Starfield.esm
+ObjectTemplates:
+- Default: True

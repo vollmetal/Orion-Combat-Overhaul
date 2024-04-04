@@ -1,0 +1,27 @@
+MutagenObjectType: WeaponModification
+FormKey: 245FBC:Starfield.esm
+EditorID: mod_XM2311_Grip_Standard
+Name:
+  TargetLanguage: English
+  Value: Standard Grip
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\M1919\M1919_Grip_Tactical.nif
+  FLLD: 0x01000000
+AttachPoint: 02249F:Starfield.esm
+TargetOmodKeywords:
+- 245FA9:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 6.6

@@ -1,0 +1,52 @@
+FormKey: 29E175:Starfield.esm
+EditorID: Clothes_Factory_Worker_Gray
+FormVersion: 558
+ObjectBounds:
+  First: -0.26464844, -0.20669045, 0.0009460449
+  Second: 0.26416016, 0.20712791, 0.23083496
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EB9:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Gray Labor Jumpsuit
+WorldModel:
+  Male:
+    File: SetDressing\OutfitContainer01.nif
+  Female:
+    File: SetDressing\OutfitContainer01.nif
+FirstPersonFlags: 40
+Race: 00347D:Starfield.esm
+Keywords:
+- 0E048C:Starfield.esm
+- 1F0A14:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 01D1D8:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 09B734:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 09B732:Starfield.esm
+Value: 132
+Weight: 1.2
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+- DamageType: 060A81:Starfield.esm
+AttachParentSlots:
+- 022821:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Default: True
+  Includes:
+  - Mod: 25AF31:Starfield.esm
+    DontUseAll: True
+  - Mod: 13DE00:Starfield.esm
+    DontUseAll: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+    Property: 14
+    Record: 29E170:Starfield.esm

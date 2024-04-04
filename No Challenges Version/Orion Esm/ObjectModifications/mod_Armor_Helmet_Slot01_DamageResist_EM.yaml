@@ -1,0 +1,18 @@
+MutagenObjectType: ArmorModification
+FormKey: 3AD4DA:Starfield.esm
+EditorID: mod_Armor_Helmet_Slot01_DamageResist_EM
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: EM Shielding
+Description:
+  TargetLanguage: English
+  Value: Increased Electromagnetic Resistance.
+Model:
+  FLLD: 0x01000000
+AttachPoint: 088C9C:Starfield.esm
+Includes:
+- Mod: 3AD4D0:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 3A0B3B:Starfield.esm

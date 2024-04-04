@@ -1,0 +1,17 @@
+FormKey: 000902:Orion.esm
+EditorID: mod_armor_quality_2
+Name:
+  TargetLanguage: English
+  Value: Standard Armor Plate
+Model:
+  File: SetDressing\OutfitContainer01.nif
+Keywords:
+- 0008ED:Orion.esm
+- 11A47A:Starfield.esm
+- 021377:Starfield.esm
+- 23CEB6:Starfield.esm
+Resources:
+- Resource: 0008E9:Orion.esm
+  Count: 1
+Value: 2000
+Weight: 0.5

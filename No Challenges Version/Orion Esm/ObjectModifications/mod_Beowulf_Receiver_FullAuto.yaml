@@ -1,0 +1,41 @@
+MutagenObjectType: WeaponModification
+FormKey: 13136D:Starfield.esm
+EditorID: mod_Beowulf_Receiver_FullAuto
+Name:
+  TargetLanguage: English
+  Value: Fully Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\Beowulf\Beowulf.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 02249D:Starfield.esm
+- 02249F:Starfield.esm
+- 14D08A:Starfield.esm
+- 022499:Starfield.esm
+- 05D4D7:Starfield.esm
+- 10A75F:Starfield.esm
+- 10A75E:Starfield.esm
+Includes:
+- Mod: 1341F4:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70E6:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: AimModelTemplate
+  Record: 1A26C0:Starfield.esm
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 15
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: -0.5
+  FunctionType: MultAndAdd

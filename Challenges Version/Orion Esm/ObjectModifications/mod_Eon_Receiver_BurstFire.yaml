@@ -1,0 +1,49 @@
+MutagenObjectType: WeaponModification
+FormKey: 131353:Starfield.esm
+EditorID: mod_Eon_Receiver_BurstFire
+Name:
+  TargetLanguage: English
+  Value: Burst Fire
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\StingerPistol\stinger.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 01BC46:Starfield.esm
+- 02ECC0:Starfield.esm
+- 04B6E1:Starfield.esm
+- 022499:Starfield.esm
+- 05D4D7:Starfield.esm
+- 02249C:Starfield.esm
+- 04A418:Starfield.esm
+- 04A417:Starfield.esm
+- 147AFE:Starfield.esm
+- 02249F:Starfield.esm
+- 02EE28:Starfield.esm
+Includes:
+- Mod: 1341F5:Starfield.esm
+  Optional: True
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70DD:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModIntProperty<Weapon+Property>
+  Property: BurstShots
+  Value: 2
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: BurstDelaySeconds
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 12.5
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: -0.25
+  FunctionType: MultAndAdd

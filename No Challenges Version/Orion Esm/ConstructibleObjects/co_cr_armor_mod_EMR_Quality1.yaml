@@ -1,0 +1,15 @@
+FormKey: 0008DA:Orion.esm
+EditorID: co_cr_armor_mod_EMR_Quality1
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Increases electromagnetic protection by 25
+WorkbenchKeyword: 0657FF:Starfield.esm
+CreatedObject: 0008CB:Orion.esm
+AmountProduced: 1
+MenuSortOrder: 1
+LearnMethod: DefaultOrConditions
+Value: 1
+Categories:
+- 0008D6:Orion.esm
+RECF: 0

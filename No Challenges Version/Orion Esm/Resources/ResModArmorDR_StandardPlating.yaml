@@ -1,0 +1,16 @@
+FormKey: 0008E9:Orion.esm
+EditorID: ResModArmorDR_StandardPlating
+Name:
+  TargetLanguage: English
+  Value: Standard Armor Plating
+Keywords:
+- 0008ED:Orion.esm
+Rarity: Common
+NextRarities:
+- 0008F5:Orion.esm
+- 0008F6:Orion.esm
+- 0008F7:Orion.esm
+- 0008F8:Orion.esm
+ShortName:
+  TargetLanguage: English
+  Value: Plating

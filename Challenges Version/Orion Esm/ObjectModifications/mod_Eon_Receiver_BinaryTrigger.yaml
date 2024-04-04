@@ -1,0 +1,34 @@
+MutagenObjectType: WeaponModification
+FormKey: 13134F:Starfield.esm
+EditorID: mod_Eon_Receiver_BinaryTrigger
+Name:
+  TargetLanguage: English
+  Value: Binary Trigger
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\StingerPistol\stinger.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 01BC46:Starfield.esm
+- 02ECC0:Starfield.esm
+- 04B6E1:Starfield.esm
+- 022499:Starfield.esm
+- 05D4D7:Starfield.esm
+- 02249C:Starfield.esm
+- 04A418:Starfield.esm
+- 04A417:Starfield.esm
+- 147AFE:Starfield.esm
+- 02249F:Starfield.esm
+Includes:
+- Mod: 1452D2:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70DD:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Speed
+  Value: 1.075
+  FunctionType: MultAndAdd

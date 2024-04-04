@@ -1,0 +1,73 @@
+FormKey: 1D0F95:Starfield.esm
+MajorRecordFlagsRaw: 64
+EditorID: Spacesuit_Mercury_Backpack_NoBoostpack
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- 0x40
+ObjectBounds:
+  First: -0.19055176, -0.23742676, -0.012176514
+  Second: 0.16918945, 0.24853516, 0.18005371
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EB5:Starfield.esm
+  Preview: 1BF566:Starfield.esm
+  Workbench: 0060B3:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Mercury
+WorldModel:
+  Male:
+    File: Clothes\spacesuit_mercury_01\spacesuit_mercury_backpack_01_go.nif
+  Female: {}
+FirstPersonFlags: SSBackpack
+PickupSound:
+  Start: de17433a-89a8-16f1-86d6-7114a3b197bb
+DropdownSound:
+  Start: c02d4adb-7d05-caf3-0f67-b157fe214496
+Race: 00347D:Starfield.esm
+Keywords:
+- 03ED75:Starfield.esm
+- 23C7BF:Starfield.esm
+- 3E612E:Starfield.esm
+- 11A479:Starfield.esm
+- 30C1BD:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+InstanceNaming: 184BC1:Starfield.esm
+Armatures:
+- AddonIndex: 0
+  AddonModel: 1D0F97:Starfield.esm
+Value: 6985
+Weight: 10.6
+Unused: '[]'
+AttachParentSlots:
+- 3E612D:Starfield.esm
+- 088C9C:Starfield.esm
+- 0B2642:Starfield.esm
+- 0B2646:Starfield.esm
+- 0B2649:Starfield.esm
+- 1AEB52:Starfield.esm
+- 157D41:Starfield.esm
+- 1E32C8:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Entry
+  Default: True
+  Includes:
+  - Mod: 23F862:Starfield.esm
+    DontUseAll: True
+  - Mod: 07D4E8:Starfield.esm
+    DontUseAll: True
+  - Mod: 34BAA5:Starfield.esm
+    DontUseAll: True
+  - Mod: 3E94BD:Starfield.esm
+    DontUseAll: True
+  - Mod: 157D48:Starfield.esm
+    DontUseAll: True
+MajorFlags:
+- Shield

@@ -1,0 +1,33 @@
+FormKey: 0008B5:Orion.esm
+EditorID: HighPoweredDamageController
+Name:
+  TargetLanguage: English
+  Value: High Powered Damage Perk
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PcPlayable
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyActorValue
+    Priority: 30
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F5662:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 23
+    ActorValue: 1F50D1:Starfield.esm
+    Value: 0.01
+    Modification: MultiplyOnePlusAVMult
+  Description:
+    TargetLanguage: English
+    Value: ''

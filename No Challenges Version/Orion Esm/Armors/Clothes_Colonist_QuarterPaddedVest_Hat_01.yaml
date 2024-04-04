@@ -1,0 +1,35 @@
+FormKey: 24EF65:Starfield.esm
+EditorID: Clothes_Colonist_QuarterPaddedVest_Hat_01
+FormVersion: 558
+ObjectBounds:
+  First: -0.08496094, -0.121398926, -0.0032653809
+  Second: 0.085632324, 0.15002441, 0.10974121
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EAE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Settler Hat
+WorldModel:
+  Male:
+    File: Clothes\outfit_colonist_quarterpaddedvest_01\Outfit_Colonist_QuarterPaddedVest_01_Hat_GO.nif
+  Female: {}
+FirstPersonFlags: 18
+Race: 00347D:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048B:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 24EF63:Starfield.esm
+Value: 38
+Weight: 0.2
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+- DamageType: 060A81:Starfield.esm
+ObjectTemplates:
+- Default: True

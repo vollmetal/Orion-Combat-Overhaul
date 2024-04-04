@@ -1,0 +1,44 @@
+MutagenObjectType: WeaponModification
+FormKey: 088BCD:Starfield.esm
+EditorID: mod_Eon_Receiver_SemiAuto_Standard
+Name:
+  TargetLanguage: English
+  Value: Semi-Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\StingerPistol\stinger.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 05D4D7:Starfield.esm
+- 022499:Starfield.esm
+- 02249C:Starfield.esm
+- 02EE28:Starfield.esm
+- 01BC46:Starfield.esm
+- 02ECC0:Starfield.esm
+- 02249F:Starfield.esm
+- 147AFE:Starfield.esm
+Includes:
+- Mod: 1341F7:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70DD:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 5
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: -1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add

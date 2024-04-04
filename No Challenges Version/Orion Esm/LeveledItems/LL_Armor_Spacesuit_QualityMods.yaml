@@ -1,0 +1,25 @@
+FormKey: 000973:Orion.esm
+EditorID: LL_Armor_Spacesuit_QualityMods
+ODTY: 0
+MaxCount: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Level: 10
+  Reference: 000902:Orion.esm
+  Count: 1
+- Level: 20
+  Reference: 000903:Orion.esm
+  Count: 1
+- Level: 40
+  Reference: 000904:Orion.esm
+  Count: 1
+- Level: 60
+  Reference: 000905:Orion.esm
+  Count: 1
+- Level: 80
+  Reference: 000906:Orion.esm
+  Count: 1
+Model:
+  FLLD: 0x01000000

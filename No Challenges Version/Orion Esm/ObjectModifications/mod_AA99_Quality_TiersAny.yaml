@@ -1,0 +1,17 @@
+MutagenObjectType: WeaponModification
+FormKey: 12FD31:Starfield.esm
+MajorRecordFlagsRaw: 128
+EditorID: mod_AA99_Quality_TiersAny
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- 0x80
+Name:
+  TargetLanguage: English
+  Value: Quality Tiers Any
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+MajorFlags:
+- 0x80

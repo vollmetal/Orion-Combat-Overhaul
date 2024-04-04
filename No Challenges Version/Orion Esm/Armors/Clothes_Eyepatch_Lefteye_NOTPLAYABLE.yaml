@@ -1,0 +1,25 @@
+FormKey: 02E554:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: Clothes_Eyepatch_Lefteye_NOTPLAYABLE
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- NotPlayable
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Frank Renick's Eyepatch
+FirstPersonFlags: Eyepatch
+Race: 00347D:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048B:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 02E553:Starfield.esm
+Weight: 0.1
+Unused: 0x000000
+MajorFlags:
+- NonPlayable

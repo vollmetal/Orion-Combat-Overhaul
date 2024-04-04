@@ -1,0 +1,20 @@
+FormKey: 000969:Orion.esm
+EditorID: mod_spacesuit_utility_SpacesuitPockets2
+Name:
+  TargetLanguage: English
+  Value: Medium Pockets for Spacesuits
+Model:
+  File: SetDressing\OutfitContainer01.nif
+Keywords:
+- 02137B:Starfield.esm
+- 11A47A:Starfield.esm
+- 23CEB6:Starfield.esm
+- 00093D:Orion.esm
+Resources:
+- Resource: 00095F:Orion.esm
+  Count: 1
+Value: 3000
+Weight: 0.5
+ShortName:
+  TargetLanguage: English
+  Value: Small Spacesuit Pockets

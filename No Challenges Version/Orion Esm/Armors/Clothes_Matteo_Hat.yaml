@@ -1,0 +1,44 @@
+FormKey: 030B4B:Starfield.esm
+EditorID: Clothes_Matteo_Hat
+FormVersion: 558
+ObjectBounds:
+  First: -0.09576416, -0.11004639, -0.0033874512
+  Second: 0.09576416, 0.114990234, 0.16149902
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EAE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Matteo Khatri's Hat
+WorldModel:
+  Male:
+    File: Clothes\outfit_sanctum_priest\Outfit_Sanctum_Priest_Hat_GO.nif
+    MaterialSwaps:
+    - 1991B1:Starfield.esm
+    Flags:
+    - HasFirstPersonModel
+  Female: {}
+FirstPersonFlags: Hat
+Race: 00347D:Starfield.esm
+Keywords:
+- 0E048B:Starfield.esm
+- 1F0A14:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 347F2B:Starfield.esm
+Value: 525
+Weight: 0.2
+Unused: 0x000000
+Resistances:
+- DamageType: 060A81:Starfield.esm
+- DamageType: 023190:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Default: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+    Property: 14
+    Record: 1991B1:Starfield.esm

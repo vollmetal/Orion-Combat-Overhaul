@@ -1,0 +1,26 @@
+FormKey: 000979:Orion.esm
+EditorID: Equipment_Research_Spacesuit_Lining_01
+Name:
+  TargetLanguage: English
+  Value: Novice Spacesuit Linings
+Description:
+  TargetLanguage: English
+  Value: Learn the ability to weave spacesuit linings for special protection.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24577F:Starfield.esm
+  RequiredCount: 10
+- Resource: 077821:Starfield.esm
+  RequiredCount: 20
+- Resource: 0777F8:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 27CBC3:Starfield.esm
+  RequiredCount: 1
+IconSource: 067C94:Starfield.esm
+NNAM: 0
+MenuSortOrder: 6
+TNAM: 0
+CategoryKeyword: 2956C1:Starfield.esm
+RequiredProjects:
+- 1520B9:Starfield.esm

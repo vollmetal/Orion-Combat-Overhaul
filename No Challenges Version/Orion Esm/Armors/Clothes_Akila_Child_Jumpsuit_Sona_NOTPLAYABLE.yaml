@@ -1,0 +1,44 @@
+FormKey: 04B5A0:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: Clothes_Akila_Child_Jumpsuit_Sona_NOTPLAYABLE
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- NotPlayable
+ObjectBounds:
+  First: -0.26464844, -0.20669045, 0.0009460449
+  Second: 0.26416016, 0.20712791, 0.23083496
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EB9:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Akila Child Jumpsuit
+WorldModel:
+  Male:
+    File: SetDressing\OutfitContainer01.nif
+  Female:
+    File: SetDressing\OutfitContainer01.nif
+FirstPersonFlags: BODY
+Race: 2AABCD:Starfield.esm
+Keywords:
+- 0E048C:Starfield.esm
+- 1F0A14:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 1676D8:Starfield.esm
+Weight: 1
+Unused: 0x000000
+ObjectTemplates:
+- IsEditorOnly: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+    Property: 14
+    Record: 04B5A1:Starfield.esm
+Footstep:
+  Category: 7fa543ba-e67b-6976-6d4b-ded8b66e20ac
+  Value: d8874247-6cd7-7f1b-7540-a4bf3b3fa28d
+MajorFlags:
+- NonPlayable

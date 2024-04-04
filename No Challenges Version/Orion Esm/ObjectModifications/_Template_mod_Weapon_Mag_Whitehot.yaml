@@ -1,0 +1,57 @@
+MutagenObjectType: WeaponModification
+FormKey: 1452C6:Starfield.esm
+MajorRecordFlagsRaw: 256
+EditorID: _Template_mod_Weapon_Mag_Whitehot
+StarfieldMajorRecordFlags:
+- 0x100
+Name:
+  TargetLanguage: English
+  Value: Template Weapon Whitehot Rounds
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+MajorFlags:
+- 0x100
+Properties:
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Enchantment
+  Record: 12D052:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Value
+  Value: 0.6
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: ImpactDataset
+  Record: 1E3EA5:Starfield.esm
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: ProjectileOverride
+  Record: 2AB37B:Starfield.esm
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: 1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: DamageTypeValue
+  Record: 060A81:Starfield.esm
+  Value: 1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3FE6D2:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3BC130:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 1283C8:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: -2
+  FunctionType: Add

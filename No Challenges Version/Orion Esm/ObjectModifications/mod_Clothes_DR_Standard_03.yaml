@@ -1,0 +1,12 @@
+MutagenObjectType: ArmorModification
+FormKey: 1C5AF4:Starfield.esm
+EditorID: mod_Clothes_DR_Standard_03
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: mod_Clothes_Combat_Rank03_01
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000

@@ -1,0 +1,23 @@
+MutagenObjectType: ArmorModification
+FormKey: 0008C3:Orion.esm
+EditorID: mod_Armor_DR_Quality_05
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Expert
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+AttachPoint: 11E2C1:Starfield.esm
+LooseMod: 000905:Orion.esm
+Properties:
+- MutagenObjectType: ObjectModIntProperty<Armor+Property>
+  Property: Rating
+  Value: 125
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+  Property: Keyword
+  Record: 3A0B38:Starfield.esm
+  FunctionType: Add

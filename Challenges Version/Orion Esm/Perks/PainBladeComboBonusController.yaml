@@ -1,0 +1,88 @@
+FormKey: 0008B9:Orion - Challenges.esm
+EditorID: PainBladeComboBonusController
+Name:
+  TargetLanguage: English
+  Value: Pain Blade Combo Damage Perk
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PcPlayable
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 140
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: GetLastCombatHitActorConsecutiveHitsConditionData
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F70C3:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 16
+    Modification: Multiply
+    Value: 1.15
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 141
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: GetLastCombatHitActorConsecutiveHitsConditionData
+        ComparisonValue: 2
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F70C3:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 142
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: GetLastCombatHitActorConsecutiveHitsConditionData
+        ComparisonValue: 3
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F70C3:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.45
+  Description:
+    TargetLanguage: English
+    Value: ''

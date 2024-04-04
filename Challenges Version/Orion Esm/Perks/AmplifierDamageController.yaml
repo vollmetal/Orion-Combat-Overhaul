@@ -1,0 +1,117 @@
+FormKey: 0008B6:Orion - Challenges.esm
+EditorID: AmplifierDamageController
+Name:
+  TargetLanguage: English
+  Value: Amplifier Damage Perk
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PcPlayable
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyActorValue
+    Priority: 20
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F5660:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 060A81:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 38
+    ActorValue: 1F50AA:Starfield.esm
+    Value: 0.01
+    Modification: MultiplyOnePlusAVMult
+  - MutagenObjectType: PerkEntryPointModifyActorValue
+    Priority: 21
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          FirstParameter: 1F5660:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 1D5D55:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 2A4ABE:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 2A4ABF:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellEffectMagnitude
+    PerkConditionTabCount: 4
+    PerkEntryID: 19
+    ActorValue: 1F50AA:Starfield.esm
+    Value: 0.01
+    Modification: MultiplyOnePlusAVMult
+  - MutagenObjectType: PerkEntryPointModifyActorValue
+    Priority: 22
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F5660:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 40
+    ActorValue: 1F50AA:Starfield.esm
+    Value: 0.01
+    Modification: MultiplyOnePlusAVMult
+  Description:
+    TargetLanguage: English
+    Value: ''

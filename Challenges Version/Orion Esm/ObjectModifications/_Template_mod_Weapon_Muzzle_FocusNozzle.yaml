@@ -1,0 +1,59 @@
+MutagenObjectType: WeaponModification
+FormKey: 1462AE:Starfield.esm
+MajorRecordFlagsRaw: 256
+EditorID: _Template_mod_Weapon_Muzzle_FocusNozzle
+StarfieldMajorRecordFlags:
+- 0x100
+Name:
+  TargetLanguage: English
+  Value: Template Weapon Muzzle Focus Nozzle
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+MajorFlags:
+- 0x100
+Properties:
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Weight
+  Value: 0.8
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: Value
+  Value: 0.35
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: CriticalDamageMultiplier
+  Value: 0.5
+  Value2: 0.5
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: MinRange
+  Value: 0.2
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: MaxRange
+  Value: 0.2
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: 1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 3FE6D3:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 04F62C:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 386783:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 1F5663:Starfield.esm
+  FunctionType: Add

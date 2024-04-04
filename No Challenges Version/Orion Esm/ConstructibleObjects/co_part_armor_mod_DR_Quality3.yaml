@@ -1,0 +1,26 @@
+FormKey: 0008F2:Orion.esm
+EditorID: co_part_armor_mod_DR_Quality3
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Increases ballistic protection by 75
+WorkbenchKeyword: 0657FF:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetKeywordItemCountConditionData
+    FirstParameter: 0008EE:Orion.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 0008F5:Orion.esm
+  Count: 1
+CreatedObject: 11E2BA:Starfield.esm
+AmountProduced: 1
+MenuSortOrder: 3
+LearnMethod: DefaultOrConditions
+Value: 3
+Categories:
+- 0008D5:Orion.esm
+RECF: 0

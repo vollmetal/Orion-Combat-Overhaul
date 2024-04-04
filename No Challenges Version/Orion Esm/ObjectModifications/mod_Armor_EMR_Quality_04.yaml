@@ -1,0 +1,24 @@
+MutagenObjectType: ArmorModification
+FormKey: 0008CE:Orion.esm
+EditorID: mod_Armor_EMR_Quality_04
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Advanced
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+AttachPoint: 0008C2:Orion.esm
+LooseMod: 000904:Orion.esm
+Properties:
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: DamageResistance
+  Record: 023190:Starfield.esm
+  Value: 100
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+  Property: Keyword
+  Record: 3A0B3A:Starfield.esm
+  FunctionType: Add

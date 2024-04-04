@@ -1,0 +1,24 @@
+FormKey: 2501DB:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: Clothes_Crowd_Hat_05_Fashion_NOTPLAYABLE
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- NotPlayable
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Fashion Hat 02
+FirstPersonFlags: MorphHair
+Race: 2BBC09:Starfield.esm
+Keywords:
+- 1F0A14:Starfield.esm
+- 0E048C:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 2501D1:Starfield.esm
+Unused: 0x000000
+MajorFlags:
+- NonPlayable

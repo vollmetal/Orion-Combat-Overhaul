@@ -1,0 +1,45 @@
+MutagenObjectType: WeaponModification
+FormKey: 04615E:Starfield.esm
+EditorID: mod_MagShot_Receiver_SemiAuto_Standard
+Name:
+  TargetLanguage: English
+  Value: Semi-Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\MagShot\MagShot.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 02249D:Starfield.esm
+- 147AFE:Starfield.esm
+- 0191EE:Starfield.esm
+- 05D4D7:Starfield.esm
+- 02249C:Starfield.esm
+Includes:
+- Mod: 1341F7:Starfield.esm
+  Optional: True
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70CC:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: AimModelTemplate
+  Record: 01E7D3:Starfield.esm
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 2
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: ActorValue
+  Record: 26AD4E:Starfield.esm
+  Value: -1
+  FunctionType: Add
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add

@@ -1,0 +1,17 @@
+FormKey: 000962:Orion.esm
+EditorID: mod_spacesuit_lining_ENVResistMK3
+Name:
+  TargetLanguage: English
+  Value: Environmental Protection Kit MK3
+Model:
+  File: SetDressing\OutfitContainer01.nif
+Keywords:
+- 02137B:Starfield.esm
+- 11A47A:Starfield.esm
+- 23CEB6:Starfield.esm
+- 000940:Orion.esm
+Resources:
+- Resource: 000958:Orion.esm
+  Count: 1
+Value: 4000
+Weight: 0.5

@@ -1,0 +1,23 @@
+FormKey: 3D6D3E:Starfield.esm
+EditorID: co_mod_Armor_Spacesuit_Slot04_Stealth
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Reduces detection from enemies.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17630
+  Data:
+    MutagenObjectType: IsResearchCompleteConditionData
+    FirstParameter: 178D1A:Starfield.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 077828:Starfield.esm
+  Count: 3
+- Component: 245787:Starfield.esm
+  Count: 1
+- Component: 252074:Starfield.esm
+  Count: 4
+CreatedObject: 3D6D3B:Starfield.esm
+RECF: 2

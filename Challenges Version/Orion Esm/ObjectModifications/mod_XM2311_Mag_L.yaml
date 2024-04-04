@@ -1,0 +1,23 @@
+MutagenObjectType: WeaponModification
+FormKey: 245FB2:Starfield.esm
+EditorID: mod_XM2311_Mag_L
+Name:
+  TargetLanguage: English
+  Value: Large Magazine
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\M1919\m1919_magazine_extended.nif
+  FLLD: 0x01000000
+AttachPoint: 05D4D7:Starfield.esm
+Includes:
+- Mod: 1F6399:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 245FA9:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModIntProperty<Weapon+Property>
+  Property: AmmoCapacity
+  Value: 3
+  FunctionType: Add

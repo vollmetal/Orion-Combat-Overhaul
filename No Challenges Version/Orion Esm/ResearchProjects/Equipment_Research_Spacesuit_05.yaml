@@ -1,0 +1,28 @@
+FormKey: 000978:Orion.esm
+EditorID: Equipment_Research_Spacesuit_05
+Name:
+  TargetLanguage: English
+  Value: Legendary Spacesuit Defenses
+Description:
+  TargetLanguage: English
+  Value: The experimental final frontier of Spacesuit protection
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24577F:Starfield.esm
+  RequiredCount: 10
+- Resource: 04BA38:Starfield.esm
+  RequiredCount: 20
+- Resource: 0777F8:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 27CBC3:Starfield.esm
+  RequiredCount: 4
+- Perk: 04CE2D:Starfield.esm
+  RequiredCount: 1
+IconSource: 22856F:Starfield.esm
+NNAM: 0
+MenuSortOrder: 5
+TNAM: 0
+CategoryKeyword: 2956C1:Starfield.esm
+RequiredProjects:
+- 178D1A:Starfield.esm

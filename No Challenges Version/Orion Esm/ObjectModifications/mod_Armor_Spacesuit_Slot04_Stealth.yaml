@@ -1,0 +1,17 @@
+MutagenObjectType: ArmorModification
+FormKey: 3D6D3B:Starfield.esm
+EditorID: mod_Armor_Spacesuit_Slot04_Stealth
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Gravitic Composites
+Description:
+  TargetLanguage: English
+  Value: Reduced Detection and Weight.
+Model:
+  FLLD: 0x01000000
+Includes:
+- Mod: 050C45:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 0E8D7B:Starfield.esm

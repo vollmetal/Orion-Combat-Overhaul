@@ -1,0 +1,50 @@
+MutagenObjectType: WeaponModification
+FormKey: 12C5B3:Starfield.esm
+EditorID: mod_Novalight_Receiver_BurstFire
+Name:
+  TargetLanguage: English
+  Value: Burst Fire
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\Novalight\NovaLight_Receiver.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 05D4D7:Starfield.esm
+- 0191EE:Starfield.esm
+- 02249C:Starfield.esm
+- 12ECEE:Starfield.esm
+- 02249D:Starfield.esm
+- 022499:Starfield.esm
+- 147AFE:Starfield.esm
+Includes:
+- Mod: 1341F5:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70C7:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModIntProperty<Weapon+Property>
+  Property: BurstShots
+  Value: 2
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: BurstDelaySeconds
+  Value: 0.4
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 5.5
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: -0.25
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Weapon+Property>
+  Property: DamageTypeValue
+  Record: 060A81:Starfield.esm
+  Value: -0.25
+  FunctionType: MultAndAdd

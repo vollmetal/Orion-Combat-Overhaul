@@ -1,0 +1,35 @@
+FormKey: 00091B:Orion.esm
+EditorID: co_cr_Armor_mod_Spacesuit_Utility2_Pockets1
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Increases carrying capacity.
+WorkbenchKeyword: 0657FF:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsResearchCompleteConditionData
+    FirstParameter: 00097F:Orion.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetKeywordItemCountConditionData
+    FirstParameter: 000910:Orion.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 077828:Starfield.esm
+  Count: 5
+- Component: 07782D:Starfield.esm
+  Count: 10
+- Component: 24577F:Starfield.esm
+  Count: 5
+CreatedObject: 3A83EA:Starfield.esm
+MenuSortOrder: 1
+LearnMethod: DefaultOrConditions
+Value: 1
+Categories:
+- 000918:Orion.esm
+RECF: 1

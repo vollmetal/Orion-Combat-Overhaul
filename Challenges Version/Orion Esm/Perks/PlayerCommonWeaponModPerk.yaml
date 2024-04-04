@@ -1,0 +1,19 @@
+FormKey: 101CB2:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: PlayerCommonWeaponModPerk
+StarfieldMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Player Weapon Mod Perk
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PcPlayable
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: ''
+MajorFlags:
+- NonPlayable

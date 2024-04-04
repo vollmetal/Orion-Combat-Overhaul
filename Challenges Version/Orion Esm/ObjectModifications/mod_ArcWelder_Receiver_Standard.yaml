@@ -1,0 +1,32 @@
+MutagenObjectType: WeaponModification
+FormKey: 042D8C:Starfield.esm
+EditorID: mod_ArcWelder_Receiver_Standard
+Name:
+  TargetLanguage: English
+  Value: Standard Receiver
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\ArcWelder\ArcWelder.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 02249F:Starfield.esm
+- 147AFE:Starfield.esm
+- 0191EE:Starfield.esm
+- 02249C:Starfield.esm
+TargetOmodKeywords:
+- 1F70E9:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 8

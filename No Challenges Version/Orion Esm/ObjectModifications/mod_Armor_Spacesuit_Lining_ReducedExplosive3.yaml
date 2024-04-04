@@ -1,0 +1,30 @@
+MutagenObjectType: ArmorModification
+FormKey: 000939:Orion.esm
+EditorID: mod_Armor_Spacesuit_Lining_ReducedExplosive3
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Explosive Shielding MK3
+Description:
+  TargetLanguage: English
+  Value: Reduces damage from explosives by 30%.
+Model:
+  FLLD: 0x01000000
+AttachPoint: 022821:Starfield.esm
+TargetOmodKeywords:
+- 0E8D7B:Starfield.esm
+LooseMod: 000964:Orion.esm
+Properties:
+- MutagenObjectType: ObjectModFloatProperty<Armor+Property>
+  Property: Value
+  Value: 0.15
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
+  Property: ActorValue
+  Record: 22F93C:Starfield.esm
+  Value: -0.3
+  FunctionType: Add
+- MutagenObjectType: ObjectModFloatProperty<Armor+Property>
+  Property: Weight
+  Value: 0.2
+  FunctionType: MultAndAdd

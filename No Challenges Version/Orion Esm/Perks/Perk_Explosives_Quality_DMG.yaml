@@ -1,0 +1,160 @@
+FormKey: 1BDC4B:Starfield.esm
+EditorID: Perk_Explosives_Quality_DMG
+Name:
+  TargetLanguage: English
+  Value: Explosive Weapon Quality Level Damage
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PcPlayable
+- 0x4
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F70BC:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06288F:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModPlayerExplosionDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Modification: Add
+    Value: 35
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F70BC:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 062891:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModPlayerExplosionDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Add
+    Value: 42
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F70BC:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06288D:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModPlayerExplosionDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Add
+    Value: 50
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 10
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F70E3:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06288F:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModPlayerExplosionDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Add
+    Value: 39
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 11
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F70E3:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 062891:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModPlayerExplosionDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Add
+    Value: 44
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 12
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1F70E3:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06288D:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModPlayerExplosionDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Add
+    Value: 52
+  Description:
+    TargetLanguage: English
+    Value: ''

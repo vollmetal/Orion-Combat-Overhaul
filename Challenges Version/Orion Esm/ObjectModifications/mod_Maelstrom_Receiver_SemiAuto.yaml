@@ -1,0 +1,46 @@
+MutagenObjectType: WeaponModification
+FormKey: 068A1F:Starfield.esm
+EditorID: mod_Maelstrom_Receiver_SemiAuto
+Name:
+  TargetLanguage: English
+  Value: Semi-Automatic
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  File: Weapons\Maelstrom\Maelstrom.nif
+  FLLD: 0x01000000
+AttachPoint: 024004:Starfield.esm
+AttachParentSlots:
+- 05D4D7:Starfield.esm
+- 02249F:Starfield.esm
+- 022499:Starfield.esm
+- 02249D:Starfield.esm
+- 149CA8:Starfield.esm
+- 04B6E1:Starfield.esm
+- 0CF0BB:Starfield.esm
+- 147AFE:Starfield.esm
+Includes:
+- Mod: 1341F7:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70CF:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModBoolProperty<Weapon+Property>
+  Property: OverrideRateofFire
+  Value: True
+  Value2: True
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: AimModelTemplate
+  Record: 04AEBC:Starfield.esm
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: ShotsperSecond
+  Value: 5
+- MutagenObjectType: ObjectModFloatProperty<Weapon+Property>
+  Property: DamagePhysical
+  Value: 1
+  FunctionType: MultAndAdd
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: Keyword
+  Record: 04A0A2:Starfield.esm
+  FunctionType: Remove

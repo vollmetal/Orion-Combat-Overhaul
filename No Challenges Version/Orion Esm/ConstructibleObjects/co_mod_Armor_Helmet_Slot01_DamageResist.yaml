@@ -1,0 +1,14 @@
+FormKey: 3AD4DF:Starfield.esm
+EditorID: co_mod_Armor_Helmet_Slot01_DamageResist
+FormVersion: 558
+Description:
+  TargetLanguage: English
+  Value: Increases Damage Resistance.
+ConstructableComponents:
+- Component: 0057CB:Starfield.esm
+  Count: 1
+- Component: 0777F8:Starfield.esm
+  Count: 1
+CreatedObject: 3AD4D9:Starfield.esm
+LearnMethod: DefaultOrConditions
+RECF: 2
