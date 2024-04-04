@@ -1,9 +1,0 @@
-FormKey: 0008D6:Orion.esm
-EditorID: RecipeArmorModERQuality
-FormVersion: 558
-Color: '#00FFFFFF'
-Type: RecipeFilter
-FNAM: 0x00000000
-Name:
-  TargetLanguage: English
-  Value: Electromagnetic Resistance Quality

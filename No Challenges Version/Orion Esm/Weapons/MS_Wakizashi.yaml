@@ -41,9 +41,6 @@ AttachParentSlots:
 - 329ABD:Starfield.esm
 ObjectTemplates:
 - IsEditorOnly: True
-  Name:
-    TargetLanguage: English
-    Value: Fallback
 - Name:
     TargetLanguage: English
     Value: Syndicate Enforcer

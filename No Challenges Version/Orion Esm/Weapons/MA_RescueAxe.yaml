@@ -90,6 +90,7 @@ ReloadSpeed: 1
 FirstPersonModel:
   File: Weapons\RescueAxe\RescueAxe.nif
   FLLD: 0x01000000
+  MaterialSwap: Null
 ImpactDataSet: 055DC3:Starfield.esm
 ColorRemappingIndex: 3.4028235E+38
 WTRMUnknown1: 20

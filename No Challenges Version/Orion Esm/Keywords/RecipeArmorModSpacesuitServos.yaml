@@ -1,9 +1,0 @@
-FormKey: 000916:Orion.esm
-EditorID: RecipeArmorModSpacesuitServos
-FormVersion: 558
-Color: '#00FFFFFF'
-Type: RecipeFilter
-FNAM: 0x00000000
-Name:
-  TargetLanguage: English
-  Value: Servos
