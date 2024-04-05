@@ -1,0 +1,36 @@
+MutagenObjectType: WeaponModification
+FormKey: 000991:Orion.esm
+MajorRecordFlagsRaw: 128
+EditorID: mod_armor_spacesuit_lining_dist
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- 0x80
+Name:
+  TargetLanguage: English
+  Value: Spacesuit Lining Distribution
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+Includes:
+- Mod: 00092C:Orion.esm
+  DoNotUseAll: True
+- Mod: 3A83E6:Starfield.esm
+  DoNotUseAll: True
+- Mod: 000936:Orion.esm
+  MinimumLevel: 30
+  DoNotUseAll: True
+- Mod: 000937:Orion.esm
+  MinimumLevel: 80
+  DoNotUseAll: True
+- Mod: 3A83E0:Starfield.esm
+  DoNotUseAll: True
+- Mod: 000938:Orion.esm
+  MinimumLevel: 30
+  DoNotUseAll: True
+- Mod: 000939:Orion.esm
+  MinimumLevel: 80
+  DoNotUseAll: True
+MajorFlags:
+- 0x80

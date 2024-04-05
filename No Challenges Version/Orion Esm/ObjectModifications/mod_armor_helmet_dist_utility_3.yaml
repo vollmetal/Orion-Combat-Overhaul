@@ -1,0 +1,22 @@
+MutagenObjectType: ArmorModification
+FormKey: 000990:Orion.esm
+EditorID: mod_armor_helmet_dist_utility_3
+FormVersion: 558
+Name:
+  TargetLanguage: English
+  Value: Utility 3 Distribution
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+Includes:
+- Mod: 00098C:Orion.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 3A0B3B:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+  Property: Keyword
+  Record: 374EFA:Starfield.esm
+  FunctionType: Add

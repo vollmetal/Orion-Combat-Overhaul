@@ -49,13 +49,13 @@ Armatures:
   AddonModel: 148CA4:Starfield.esm
 Value: 21395
 Weight: 15.3
-ArmorRating: 200
+ArmorRating: 225
 Unused: 0x000000
 Resistances:
 - DamageType: 023190:Starfield.esm
-  Value: 200
+  Value: 225
 - DamageType: 060A81:Starfield.esm
-  Value: 200
+  Value: 225
 AttachParentSlots:
 - 0B2642:Starfield.esm
 - 088C9C:Starfield.esm
@@ -74,18 +74,20 @@ ObjectTemplates:
     Value: Default
   Default: True
   Includes:
-  - Mod: 380C55:Starfield.esm
+  - Mod: 000991:Orion.esm
     DontUseAll: True
-  - Mod: 1CFA0B:Starfield.esm
+  - Mod: 000993:Orion.esm
     DontUseAll: True
-  - Mod: 380C54:Starfield.esm
+  - Mod: 000994:Orion.esm
     DontUseAll: True
-  - Mod: 00092D:Orion.esm
+  - Mod: 000995:Orion.esm
+    DontUseAll: True
+  - Mod: 000992:Orion.esm
+    DontUseAll: True
+  - Mod: 00099A:Orion.esm
     DontUseAll: True
   - Mod: 157D48:Starfield.esm
     DontUseAll: True
-  - Mod: 00092C:Orion.esm
-  - Mod: 1AEB51:Starfield.esm
   Properties:
   - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
     Property: 14

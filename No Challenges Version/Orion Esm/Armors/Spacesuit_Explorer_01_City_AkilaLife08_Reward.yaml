@@ -74,59 +74,28 @@ ObjectTemplates:
   Includes:
   - Mod: 0008D1:Orion.esm
     DontUseAll: True
-  - Mod: 11A478:Starfield.esm
-    DontUseAll: True
-  - Mod: 380C55:Starfield.esm
-    DontUseAll: True
-  - Mod: 380C54:Starfield.esm
-    DontUseAll: True
-  - Mod: 1AEB51:Starfield.esm
-    DontUseAll: True
-  - Mod: 00092D:Orion.esm
-    DontUseAll: True
-  - Mod: 0C9A43:Starfield.esm
-    DontUseAll: True
-  - Mod: 06029D:Starfield.esm
+  - Mod: 0008D2:Orion.esm
     DontUseAll: True
   - Mod: 0008D3:Orion.esm
     DontUseAll: True
+  - Mod: 000991:Orion.esm
+    DontUseAll: True
+  - Mod: 000993:Orion.esm
+    DontUseAll: True
+  - Mod: 000994:Orion.esm
+    DontUseAll: True
+  - Mod: 000995:Orion.esm
+    DontUseAll: True
+  - Mod: 000992:Orion.esm
+    DontUseAll: True
+  - Mod: 00099A:Orion.esm
+    DontUseAll: True
   - Mod: 157D48:Starfield.esm
     DontUseAll: True
-  - Mod: 0008D2:Orion.esm
-    DontUseAll: True
-  - Mod: 1AEB51:Starfield.esm
   Properties:
   - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
     Property: 14
     Record: 0CC5DF:Starfield.esm
-- IsEditorOnly: True
-  AddonIndex: 0
-  Keywords:
-  - 11E2BF:Starfield.esm
-  Includes:
-  - Mod: 11E2BC:Starfield.esm
-    DontUseAll: True
-- IsEditorOnly: True
-  AddonIndex: 0
-  Keywords:
-  - 11E2BE:Starfield.esm
-  Includes:
-  - Mod: 11E2BA:Starfield.esm
-    DontUseAll: True
-- IsEditorOnly: True
-  AddonIndex: 0
-  Keywords:
-  - 11E2BD:Starfield.esm
-  Includes:
-  - Mod: 11E2B9:Starfield.esm
-    DontUseAll: True
-- IsEditorOnly: True
-  AddonIndex: 0
-  Keywords:
-  - 00BF54:Starfield.esm
-  Includes:
-  - Mod: 03AF7D:Starfield.esm
-    DontUseAll: True
 Footstep:
   Category: b8164525-fc08-5327-a25f-c16a7b3878a8
   Value: 1c904579-7883-d9f9-a82c-befbe65318a8

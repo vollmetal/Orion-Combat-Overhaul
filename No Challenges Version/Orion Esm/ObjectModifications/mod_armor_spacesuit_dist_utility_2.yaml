@@ -1,0 +1,28 @@
+MutagenObjectType: WeaponModification
+FormKey: 000994:Orion.esm
+MajorRecordFlagsRaw: 128
+EditorID: mod_armor_spacesuit_dist_utility_2
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- 0x80
+Name:
+  TargetLanguage: English
+  Value: Spacesuit Utility 2 Distribution
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+Includes:
+- Mod: 380C54:Starfield.esm
+  DoNotUseAll: True
+- Mod: 3A83EA:Starfield.esm
+  DoNotUseAll: True
+- Mod: 000933:Orion.esm
+  MinimumLevel: 30
+  DoNotUseAll: True
+- Mod: 000934:Orion.esm
+  MinimumLevel: 80
+  DoNotUseAll: True
+MajorFlags:
+- 0x80

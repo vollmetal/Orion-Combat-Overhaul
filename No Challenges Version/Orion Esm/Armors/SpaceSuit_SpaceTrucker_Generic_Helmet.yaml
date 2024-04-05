@@ -52,18 +52,16 @@ AttachParentSlots:
 - 11E2C1:Starfield.esm
 - 0008C1:Orion.esm
 - 0008C2:Orion.esm
-- 088C9C:Starfield.esm
-- 0B2642:Starfield.esm
-- 0B2646:Starfield.esm
-- 0B2649:Starfield.esm
+- 000985:Orion.esm
+- 000986:Orion.esm
+- 000987:Orion.esm
+- 000988:Orion.esm
 - 1E32C8:Starfield.esm
 - 329ABC:Starfield.esm
 - 329ABD:Starfield.esm
 - 1AEB52:Starfield.esm
-- 157D41:Starfield.esm
 ObjectTemplates:
-- IsEditorOnly: True
-  Default: True
+- Default: True
   Includes:
   - Mod: 0008D1:Orion.esm
     DontUseAll: True
@@ -71,15 +69,15 @@ ObjectTemplates:
     DontUseAll: True
   - Mod: 0008D3:Orion.esm
     DontUseAll: True
-  - Mod: 3A0B3C:Starfield.esm
+  - Mod: 00098E:Orion.esm
     DontUseAll: True
-  - Mod: 3A0B3D:Starfield.esm
+  - Mod: 00098F:Orion.esm
     DontUseAll: True
-  - Mod: 3A0B3E:Starfield.esm
+  - Mod: 000990:Orion.esm
     DontUseAll: True
-  - Mod: 3A0B3F:Starfield.esm
+  - Mod: 00098D:Orion.esm
     DontUseAll: True
-  - Mod: 157D48:Starfield.esm
+  - Mod: 000998:Orion.esm
     DontUseAll: True
   Properties:
   - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>

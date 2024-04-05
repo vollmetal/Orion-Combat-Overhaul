@@ -16,7 +16,6 @@ Properties:
 - MutagenObjectType: ObjectModFormLinkFloatProperty<Armor+Property>
   Property: DamageResistance
   Record: 060A81:Starfield.esm
-  Value: 25
   FunctionType: Add
 - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
   Property: Keyword

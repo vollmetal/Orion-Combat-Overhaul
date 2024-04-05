@@ -69,24 +69,30 @@ AttachParentSlots:
 - 1AEB52:Starfield.esm
 - 157D41:Starfield.esm
 ObjectTemplates:
-- Default: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Default
+  Default: True
   Includes:
-  - Mod: 380C55:Starfield.esm
+  - Mod: 000991:Orion.esm
     DontUseAll: True
-  - Mod: 1CFA0B:Starfield.esm
+  - Mod: 000993:Orion.esm
     DontUseAll: True
-  - Mod: 380C54:Starfield.esm
+  - Mod: 000994:Orion.esm
     DontUseAll: True
-  - Mod: 00092D:Orion.esm
+  - Mod: 000995:Orion.esm
+    DontUseAll: True
+  - Mod: 000992:Orion.esm
+    DontUseAll: True
+  - Mod: 00099A:Orion.esm
     DontUseAll: True
   - Mod: 157D48:Starfield.esm
     DontUseAll: True
-  - Mod: 00092C:Orion.esm
-  - Mod: 1AEB51:Starfield.esm
   Properties:
   - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
     Property: 14
-    Record: 1CBA51:Starfield.esm
+    Record: 1CBA4B:Starfield.esm
 Voice:
   Category: f828402d-35bb-87db-b72d-890dbded3599
   Value: 247f475e-a7a8-439f-0465-8fa0412ab886

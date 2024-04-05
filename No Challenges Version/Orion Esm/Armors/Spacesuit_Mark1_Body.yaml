@@ -79,22 +79,24 @@ ObjectTemplates:
   Includes:
   - Mod: 0008D1:Orion.esm
     DontUseAll: True
-  - Mod: 380C55:Starfield.esm
-    DontUseAll: True
-  - Mod: 1CFA0B:Starfield.esm
-    DontUseAll: True
-  - Mod: 380C54:Starfield.esm
-    DontUseAll: True
-  - Mod: 00092D:Orion.esm
-    DontUseAll: True
-  - Mod: 157D48:Starfield.esm
-    DontUseAll: True
   - Mod: 0008D2:Orion.esm
     DontUseAll: True
   - Mod: 0008D3:Orion.esm
     DontUseAll: True
-  - Mod: 00092C:Orion.esm
-  - Mod: 1AEB51:Starfield.esm
+  - Mod: 000991:Orion.esm
+    DontUseAll: True
+  - Mod: 000993:Orion.esm
+    DontUseAll: True
+  - Mod: 000994:Orion.esm
+    DontUseAll: True
+  - Mod: 000995:Orion.esm
+    DontUseAll: True
+  - Mod: 000992:Orion.esm
+    DontUseAll: True
+  - Mod: 00099A:Orion.esm
+    DontUseAll: True
+  - Mod: 157D48:Starfield.esm
+    DontUseAll: True
 Footstep:
   Category: b8164525-fc08-5327-a25f-c16a7b3878a8
   Value: 1c904579-7883-d9f9-a82c-befbe65318a8

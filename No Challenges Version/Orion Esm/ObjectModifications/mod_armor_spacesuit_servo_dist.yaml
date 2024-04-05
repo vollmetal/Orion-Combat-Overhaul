@@ -1,0 +1,36 @@
+MutagenObjectType: WeaponModification
+FormKey: 000992:Orion.esm
+MajorRecordFlagsRaw: 128
+EditorID: mod_armor_spacesuit_servo_dist
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- 0x80
+Name:
+  TargetLanguage: English
+  Value: Spacesuit Servo Distribution
+Description:
+  TargetLanguage: English
+  Value: ''
+Model:
+  FLLD: 0x01000000
+Includes:
+- Mod: 00092D:Orion.esm
+  DoNotUseAll: True
+- Mod: 3A83E7:Starfield.esm
+  DoNotUseAll: True
+- Mod: 0E6936:Starfield.esm
+  MinimumLevel: 30
+  DoNotUseAll: True
+- Mod: 000935:Orion.esm
+  MinimumLevel: 80
+  DoNotUseAll: True
+- Mod: 3A83E1:Starfield.esm
+  DoNotUseAll: True
+- Mod: 11A478:Starfield.esm
+  MinimumLevel: 30
+  DoNotUseAll: True
+- Mod: 0E6935:Starfield.esm
+  MinimumLevel: 80
+  DoNotUseAll: True
+MajorFlags:
+- 0x80

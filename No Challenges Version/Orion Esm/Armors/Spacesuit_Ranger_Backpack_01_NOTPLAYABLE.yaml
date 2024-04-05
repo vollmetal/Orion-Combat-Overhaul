@@ -38,7 +38,7 @@ Armatures:
   AddonModel: 1E7E72:Starfield.esm
 Value: 3125
 Weight: 7.3
-Unused: '[]'
+Unused: 0x415050
 AttachParentSlots:
 - 3E612D:Starfield.esm
 - 088C9C:Starfield.esm

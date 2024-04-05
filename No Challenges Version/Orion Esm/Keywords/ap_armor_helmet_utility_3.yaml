@@ -1,0 +1,10 @@
+FormKey: 000988:Orion.esm
+EditorID: ap_armor_helmet_utility_3
+FormVersion: 558
+Color: '#00FFFF00'
+Notes: internal, non-visual modification.
+Type: AttachPoint
+FNAM: 0x00000000
+Name:
+  TargetLanguage: English
+  Value: Utility Slot 3

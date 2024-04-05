@@ -1,0 +1,30 @@
+FormKey: 16E0C3:Starfield.esm
+EditorID: RI07_PlayerStealthSuitHelmet
+FormVersion: 558
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Operative Helmet
+WorldModel:
+  Male:
+    File: Clothes\outfit_stealth\Outfit_Stealth_Helmet_GO.nif
+  Female: {}
+FirstPersonFlags: 21
+Race: 00347D:Starfield.esm
+Keywords:
+- 0E048B:Starfield.esm
+- 1F0A14:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 16E0C4:Starfield.esm
+Value: 375
+Weight: 0.5
+Unused: 0x000000
+ObjectTemplates:
+- {}
+Voice:
+  Category: f828402d-35bb-87db-b72d-890dbded3599
+  Value: 7a0e4f4c-24ab-1804-8c9f-289d9cfc8692

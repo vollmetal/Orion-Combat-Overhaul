@@ -14,7 +14,6 @@ AttachPoint: 11E2C1:Starfield.esm
 Properties:
 - MutagenObjectType: ObjectModIntProperty<Armor+Property>
   Property: Rating
-  Value: 25
   FunctionType: Add
 - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
   Property: Keyword

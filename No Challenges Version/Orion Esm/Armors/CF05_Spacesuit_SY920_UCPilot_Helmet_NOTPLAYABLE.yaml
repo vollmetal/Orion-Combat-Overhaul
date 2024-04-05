@@ -1,0 +1,92 @@
+FormKey: 090E5B:Starfield.esm
+MajorRecordFlagsRaw: 68
+EditorID: CF05_Spacesuit_SY920_UCPilot_Helmet_NOTPLAYABLE
+FormVersion: 558
+StarfieldMajorRecordFlags:
+- NotPlayable
+- 0x40
+ObjectBounds:
+  First: -0.12084961, -0.15844727, -0.0004272461
+  Second: 0.1385498, 0.22302246, 0.29882812
+ODTY: 0
+Transforms:
+  InventoryIcon: 0E7EA9:Starfield.esm
+  Preview: 02C03C:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: SY-920 Pilot Helmet
+WorldModel:
+  Male:
+    File: Clothes\Spacesuit_UCPilot_01\Spacesuit_UCPilot_Helmet_01_GO.nif
+    MaterialSwaps:
+    - 1773BB:Starfield.esm
+    Flags:
+    - HasFirstPersonModel
+  Female: {}
+FirstPersonFlags: SSHelmet
+PickupSound:
+  Start: fa884ae4-018b-627c-f720-9608e364b48c
+DropdownSound:
+  Start: 26dc428f-8c56-8cdf-e6b2-17917d731a95
+Race: 00347D:Starfield.esm
+Keywords:
+- 12EEE9:Starfield.esm
+- 23C7C1:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armatures:
+- AddonIndex: 0
+  AddonModel: 1E7E74:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 166411:Starfield.esm
+- AddonIndex: 0
+  AddonModel: 067FEE:Starfield.esm
+Value: 1585
+Weight: 2.9
+Unused: 0x000000
+Resistances:
+- DamageType: 023190:Starfield.esm
+- DamageType: 060A81:Starfield.esm
+AttachParentSlots:
+- 11E2C1:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Default: True
+  Includes:
+  - Mod: 11E2B6:Starfield.esm
+    DontUseAll: True
+  Properties:
+  - MutagenObjectType: ObjectModFormLinkIntProperty<Armor+Property>
+    Property: 14
+    Record: 1773BB:Starfield.esm
+- IsEditorOnly: True
+  AddonIndex: 0
+  Default: True
+  Keywords:
+  - 11E2BF:Starfield.esm
+  Includes:
+  - Mod: 11E2B5:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  AddonIndex: 0
+  Default: True
+  Keywords:
+  - 11E2BE:Starfield.esm
+  Includes:
+  - Mod: 11E2B7:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  AddonIndex: 0
+  Default: True
+  Keywords:
+  - 11E2BD:Starfield.esm
+  Includes:
+  - Mod: 11E2B8:Starfield.esm
+    DontUseAll: True
+Voice:
+  Category: f828402d-35bb-87db-b72d-890dbded3599
+  Value: 7a0e4f4c-24ab-1804-8c9f-289d9cfc8692
+MajorFlags:
+- NonPlayable
+- Shield
